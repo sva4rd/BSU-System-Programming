@@ -1,0 +1,29 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - task2_dynamic
+  pull_request:
+    branches:
+      - task2_dynamic
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Aclocal
+      run: aclocal
+
+    - name: Set up Autotools
+      run: autoreconf -i
+
+    - name: Configure
+      run: ./configure
+
+    - name: Build
+      run: make
