@@ -1,0 +1,33 @@
+Script started on 2023-11-16 14:46:57+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/temp[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/temp[00m$ ./script1.sh 
+[?2004l0
+1
+2
+3
+4
+0
+1
+2
+3
+^Z
+[1]+  Остановлен    ./script1.sh
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/temp[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/temp[00m$ SSSS[K[K[K[K./script2.sh 
+[?2004lenp0s3
+enp0s8
+lo
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/temp[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/temp[00m$ ./script3.sh newScript.sh +x
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/temp[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/temp[00m$ ./newScript.sh 
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/temp[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/temp[00m$ ./script4.sh /etc/acpi/[K
+[?2004lФайлы с правами доступа 755:
+/etc/acpi/asus-wireless.sh
+/etc/acpi/asus-keyboard-backlight.sh
+/etc/acpi/undock.sh
+/etc/acpi/tosh-wireless.sh
+/etc/acpi/ibm-wireless.sh
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/temp[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/temp[00m$ [?2004l
+exit
+Есть остановленные задания.
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/temp[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/temp[00m$ exit
+[?2004lexit
+
+Script done on 2023-11-16 14:52:21+03:00 [COMMAND_EXIT_CODE="0"]

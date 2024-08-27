@@ -1,0 +1,245 @@
+Script started on 2023-10-05 19:23:25+03:00 [TERM="linux" TTY="/dev/tty3" COLUMNS="160" LINES="50"]
+[?2004hyegor@yegor-VirtualBox:~$ (while true; do echo -n A >> log; sleep1[K 1; done)
+[?2004l^Z
+[1]+  Остановлен    ( while true; do
+    echo -n A >> log; sleep 1;
+done )
+[?2004hyegor@yegor-VirtualBox:~$ bg
+[?2004l[1]+ ( while true; do
+    echo -n A >> log; sleep 1;
+done ) &
+[?2004hyegor@yegor-VirtualBox:~$ bg(while true; do echo -n A >> log; sleep 1; done)[1P[1@B
+[?2004ljobs
+^Z
+[2]+  Остановлен    ( while true; do
+    echo -n B >> log; sleep 1;
+done )
+[?2004hyegor@yegor-VirtualBox:~$ (while true; do echo -n B >> log; sleep 1; done) &
+[?2004l[3] 8089
+[?2004hyegor@yegor-VirtualBox:~$ jobs
+[?2004l[1]   Запущен          ( while true; do
+    echo -n A >> log; sleep 1;
+done ) &
+[2]+  Остановлен    ( while true; do
+    echo -n B >> log; sleep 1;
+done )
+[3]-  Запущен          ( while true; do
+    echo -n B >> log; sleep 1;
+done ) &
+[?2004hyegor@yegor-VirtualBox:~$ renice[K[K[K[K[K[Kjobs -l
+[?2004l[1]   7473 Запущен          ( while true; do
+    echo -n A >> log; sleep 1;
+done ) &
+[2]+  7764 Остановлено  ( while true; do
+    echo -n B >> log; sleep 1;
+done )
+[3]-  8089 Запущен          ( while true; do
+    echo -n B >> log; sleep 1;
+done ) &
+[?2004hyegor@yegor-VirtualBox:~$ renice 10 -p 8089
+[?2004l8089 (process ID) старый приоритет 0, новый приоритет 10
+[?2004hyegor@yegor-VirtualBox:~$ kill -STOp[KP [K 7473
+[?2004l[?2004hyegor@yegor-VirtualBox:~$ jobs -l
+[?2004l[1]+  7473 Остановлено (сигнал)             ( while true; do
+    echo -n A >> log; sleep 1;
+done )
+[2]-  7764 Остановлено  ( while true; do
+    echo -n B >> log; sleep 1;
+done )
+[3]   8089 Запущен          ( while true; do
+    echo -n B >> log; sleep 1;
+done ) &
+[?2004hyegor@yegor-VirtualBox:~$ bg %1
+[?2004l[1]+ ( while true; do
+    echo -n A >> log; sleep 1;
+done ) &
+[?2004hyegor@yegor-VirtualBox:~$ jobs -l
+[?2004l[1]   7473 Запущен          ( while true; do
+    echo -n A >> log; sleep 1;
+done ) &
+[2]+  7764 Остановлено  ( while true; do
+    echo -n B >> log; sleep 1;
+done )
+[3]-  8089 Запущен          ( while true; do
+    echo -n B >> log; sleep 1;
+done ) &
+[?2004hyegor@yegor-VirtualBox:~$ jobs -l[2Pbg %1jobs -lkill -STOP 7473renice 10 -p 8089[10Pjobs -l[K(while true; do echo -n B >> log; sleep 1; done) &[K &[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjobs[K -lrenice 10 -p 8089[2Pkill -STOP 7473[8Pjobs -l[2Pbg %1jobs -l[Kjobs -l[2Pbg %1[K[K[K[K[Kjobs -l[K[K[K[K[K[K[Kh[Kkill - [KTERM 7764
+[?2004l[?2004hyegor@yegor-VirtualBox:~$ jobs
+[?2004l[1]   Запущен          ( while true; do
+    echo -n A >> log; sleep 1;
+done ) &
+[2]+  Остановлен    ( while true; do
+    echo -n B >> log; sleep 1;
+done )
+[3]-  Запущен          ( while true; do
+    echo -n B >> log; sleep 1;
+done ) &
+[?2004hyegor@yegor-VirtualBox:~$ jobs -l
+[?2004l[1]   7473 Запущен          ( while true; do
+    echo -n A >> log; sleep 1;
+done ) &
+[2]+  7764 Остановлено  ( while true; do
+    echo -n B >> log; sleep 1;
+done )
+[3]-  8089 Запущен          ( while true; do
+    echo -n B >> log; sleep 1;
+done ) &
+[?2004hyegor@yegor-VirtualBox:~$ ps -aux --sort=start_time | head -n 4
+[?2004lUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.2 166776 11708 ?        Ss   14:58   0:04 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    14:58   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   14:58   0:00 [rcu_gp]
+[?2004hyegor@yegor-VirtualBox:~$ ls *.txt | sed 's/e/E/g' > ls_log.txt
+[?2004lls: невозможно получить доступ к '*.txt': Нет такого файла или каталога
+[?2004hyegor@yegor-VirtualBox:~$ ls -l | tee wordscount.txt | wc
+[?2004l     12     102     689
+[?2004hyegor@yegor-VirtualBox:~$ ls -l | tee wordscount.txt | wc*.txt | sed 's/e/E/g' > ls_log.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cps -aux --sort=start_time | head -n 4[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjobs -l[K[Kkill -TERM 7764[8Pjobs -l[Kjobs -lkill -STOP 7473renice 10 -p 8089[10Pjobs -l[K(while true; do echo -n B >> log; sleep 1; done) &[1P[1@C
+[?2004l[4] 14391
+[?2004hyegor@yegor-VirtualBox:~$ (while true; do echo -n C >> log; sleep 1; done) &[1P[1@D
+[?2004l[5] 14426
+[?2004hyegor@yegor-VirtualBox:~$ jobs -l
+[?2004l[1]   7473 Запущен          ( while true; do
+    echo -n A >> log; sleep 1;
+done ) &
+[2]+  7764 Остановлено  ( while true; do
+    echo -n B >> log; sleep 1;
+done )
+[3]   8089 Запущен          ( while true; do
+    echo -n B >> log; sleep 1;
+done ) &
+[4]  14391 Запущен          ( while true; do
+    echo -n C >> log; sleep 1;
+done ) &
+[5]- 14426 Запущен          ( while true; do
+    echo -n D >> log; sleep 1;
+done ) &
+[?2004hyegor@yegor-VirtualBox:~$ 
+[?2004l[?2004hyegor@yegor-VirtualBox:~$ bash
+[?2004l[?2004hyegor@yegor-VirtualBox:~$ kill -TERM 7473
+[?2004l[?2004hyegor@yegor-VirtualBox:~$ kill -INT 7764
+[?2004l[?2004hyegor@yegor-VirtualBox:~$ kill -QI[KUIT 14391
+[?2004l[?2004hyegor@yegor-VirtualBox:~$ kill -HUP 14426
+[?2004l[?2004hyegor@yegor-VirtualBox:~$ exit
+[?2004lexit
+[1]   Завершено      ( while true; do
+    echo -n A >> log; sleep 1;
+done )
+[4]   Выход              (образ памяти сброшен на диск) ( while true; do
+    echo -n C >> log; sleep 1;
+done )
+[5]-  Обрыв терминальной линии                      ( while true; do
+    echo -n D >> log; sleep 1;
+done )
+[?2004hyegor@yegor-VirtualBox:~$ sleep 1000 &
+[?2004l[4] 16169
+[?2004hyegor@yegor-VirtualBox:~$ sleep 1000 &
+[?2004l[5] 16188
+[?2004hyegor@yegor-VirtualBox:~$ sleep 10000 [K[K &
+[?2004l[6] 16207
+[?2004hyegor@yegor-VirtualBox:~$ sleep 1000 &
+[?2004l[7] 16244
+[?2004hyegor@yegor-VirtualBox:~$ kill -TERM 16169
+[?2004l[?2004hyegor@yegor-VirtualBox:~$ kill -INT 16188
+[?2004l[4]   Завершено      sleep 1000
+[?2004hyegor@yegor-VirtualBox:~$ kill -QUIT 16207
+[?2004l[5]   Прерывание    sleep 1000
+[?2004hyegor@yegor-VirtualBox:~$ kill _[K-HUP 16244
+[?2004l[6]   Выход              (образ памяти сброшен на диск) sleep 1000
+[7]-  Обрыв терминальной линии                      sleep 1000
+[?2004hyegor@yegor-VirtualBox:~$ sudo -i
+[?2004l[sudo] пароль для yegor: 
+[?2004hroot@yegor-VirtualBox:~# time nice -n19 updatedb
+[?2004lnice: «updatedb»: Нет такого файла или каталога
+
+real	0m0,002s
+user	0m0,000s
+sys	0m0,002s
+[?2004hroot@yegor-VirtualBox:~# time nice -n19 updatedb[1P updatedb[1P updatedb5 updatedb
+[?2004lnice: «updatedb»: Нет такого файла или каталога
+
+real	0m0,002s
+user	0m0,000s
+sys	0m0,002s
+[?2004hroot@yegor-VirtualBox:~# at now + 5 minutes
+[?2004lКоманда «at» не найдена, но может быть установлена с помощью:
+apt install at
+[?2004hroot@yegor-VirtualBox:~# apt install at
+[?2004lЧтение списков пакетов… 0%Чтение списков пакетов… 100%Чтение списков пакетов… Готово
+Построение дерева зависимостей… 0%Построение дерева зависимостей… 0%Построение дерева зависимостей… 50%Построение дерева зависимостей… 50%Построение дерева зависимостей… Готово
+Чтение информации о состоянии… 0%             Чтение информации о состоянии… 0%Чтение информации о состоянии… Готово
+Предлагаемые пакеты:
+  default-mta | mail-transport-agent
+Следующие НОВЫЕ пакеты будут установлены:
+  at
+Обновлено 0 пакетов, установлено 1 новых пакетов, для удаления отмечено 0 пакетов, и 2 пакетов не обновлено.
+Необходимо скачать 41,1 kB архивов.
+После данной операции объём занятого дискового пространства возрастёт на 166 kB.
+[33m0% [Обработка][0m                       Пол:1 http://by.archive.ubuntu.com/ubuntu jammy/universe amd64 at amd64 3.2.5-1ubuntu1 [41,1 kB]
+[33m2% [1 at 1.211 B/41,1 kB 3%][0m[33m                            100% [Обработка][0m                         Получено 41,1 kB за 0с (218 kB/s)
+
+7[0;49r8[1AВыбор ранее не выбранного пакета at.
+(Чтение базы данных … (Чтение базы данных … 5%(Чтение базы данных … 10%(Чтение базы данных … 15%(Чтение базы данных … 20%(Чтение базы данных … 25%(Чтение базы данных … 30%(Чтение базы данных … 35%(Чтение базы данных … 40%(Чтение базы данных … 45%(Чтение базы данных … 50%(Чтение базы данных … 55%(Чтение базы данных … 60%(Чтение базы данных … 65%(Чтение базы данных … 70%(Чтение базы данных … 75%(Чтение базы данных … 80%(Чтение базы данных … 85%(Чтение базы данных … 90%(Чтение базы данных … 95%(Чтение базы данных … 100%(Чтение базы данных … на данный момент установлено 214773 файла и каталога.)
+Подготовка к распаковке …/at_3.2.5-1ubuntu1_amd64.deb …
+7[50;0f[42m[30mХод выполнения: [  0%][49m[39m [....................................................................................................................................] 87[50;0f[42m[30mХод выполнения: [ 20%][49m[39m [##########################..........................................................................................................] 8Распаковывается at (3.2.5-1ubuntu1) …
+7[50;0f[42m[30mХод выполнения: [ 40%][49m[39m [####################################################................................................................................] 8Настраивается пакет at (3.2.5-1ubuntu1) …
+7[50;0f[42m[30mХод выполнения: [ 60%][49m[39m [###############################################################################.....................................................] 8Created symlink /etc/systemd/system/multi-user.target.wants/atd.service → /lib/systemd/system/atd.service.
+7[50;0f[42m[30mХод выполнения: [ 80%][49m[39m [#########################################################################################################...........................] 8Обрабатываются триггеры для man-db (2.10.2-1) …
+
+7[0;50r8[1A[J[?2004hroot@yegor-VirtualBox:~# apt install att now + 5 minutes
+[?2004lwarning: commands will be executed using /bin/sh
+at Thu Oct  5 20:12:00 2023
+at> ps aux > ps_$(date+%Y%m%d%H%M%S).txt
+at> <EOT>
+job 1 at Thu Oct  5 20:12:00 2023
+[?2004hroot@yegor-VirtualBox:~# at 16:00
+[?2004lwarning: commands will be executed using /bin/sh
+at Fri Oct  6 16:00:00 2023
+at> pkill firefox
+at> <EOT>
+job 2 at Fri Oct  6 16:00:00 2023
+[?2004hroot@yegor-VirtualBox:~# crontab -e
+[?2004lno crontab for root - using an empty one
+
+Select an editor.  To change later, run 'select-editor'.
+  1. /bin/nano        <---- easiest
+  2. /usr/bin/mcedit
+  3. /usr/bin/vim.tiny
+  4. /bin/ed
+
+Choose 1-4 [1]: 1
+[?2004h)0[1;50r[m[4l[?7h[39;49m[?25l[?1c[39;49m[m[H[J[48;75H[0;10;7m[ Чтение… ][m[48;69H[0;10;7m[ Прочитано 23 строки ][m[H[0;10;7m  GNU nano 6.2                                                       /tmp/crontab.sTVEBH/crontab                                                                [1;159H[m[49d[0;10;7m^G[m Справка[17G[0;10;7m^O[m Записать     [0;10;7m^W[m Поиск[49;49H[0;10;7m^K[m Вырезать     [0;10;7m^T[m Выполнить    [0;10;7m^C[m Позиция[97G[0;10;7mM-U[m Отмена[113G[0;10;7mM-A[m Установить м[0;10;7mM-][m На скобку   [0;10;7mM-Q[m Предыдущий[50d[0;10;7m^X[m Выход[50;17H[0;10;7m^R[m ЧитФайл[33G[0;10;7m^\[m Замена[49G[0;10;7m^U[m Вставить     [0;10;7m^J[m Выровнять    [0;10;7m^/[m К строке     [0;10;7mM-E[m Повтор[113G[0;10;7mM-6[m Копировать  [0;10;7m^Q[m Обр. поиск   [0;10;7mM-W[m Следующий[2d[36m# Edit this file to introduce tasks to be run by cron.[3d# [4d# Each task to run has to be defined through a single line[5d# indicating with different fields when the task will be run[6d# and what command to run for the task[7d# [8d# To define the time you can provide concrete values for[9d# minute (m), hour (h), day of month (dom), month (mon),[10d# and day of week (dow) or use '*' in these fields (for 'any').[11d# [12d# Notice that tasks will be started based on the cron's system[13d# daemon's notion of time and timezones.[14d# [15d# Output of the crontab jobs (including errors) is sent through[16d# email to the user the crontab file belongs to (unless redirected).[17d# [18d# For example, you can run a backup of all your user accounts[19d# at 5 a.m every week with:[20d# 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/[21d# [22d# For more information see the manual pages of crontab(5) and cron(8)[23d# [24d# m h  dom mon dow   command[2d[39m[m[?25h[?0c[?25l[?1c[?25h[?0c[3d[?25l[?1c[?25h[?0c[4d[?25l[?1c[?25h[?0c[5d[?25l[?1c[?25h[?0c[6d[?25l[?1c[?25h[?0c[7d[?25l[?1c[?25h[?0c[8d[?25l[?1c[?25h[?0c[9d[?25l[?1c[?25h[?0c[10d[?25l[?1c[?25h[?0c[11d[?25l[?1c[?25h[?0c[12d[?25l[?1c[?25h[?0c[13d[?25l[?1c[?25h[?0c[14d[?25l[?1c[?25h[?0c[15d[?25l[?1c[?25h[?0c[16d[?25l[?1c[?25h[?0c[17d[?25l[?1c[?25h[?0c[18d[?25l[?1c[?25h[?0c[19d[?25l[?1c[?25h[?0c[20d[?25l[?1c[?25h[?0c[21d[?25l[?1c[48d[K[?25h[?0c[22d[?25l[?1c[?25h[?0c[23d[?25l[?1c[?25h[?0c[24d[?25l[?1c[?25h[?0c[25d[?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[1;98H[0;10;7m*[159G[m[26d[?25h[?0c[?25l[?1c[?25h[?0c*[?25l[?1c[?25h[?0c/[?25l[?1c[?25h[?0c5[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c*[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c*[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c*[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c*[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0cu[?25l[?1c[?25h[?0cp[?25l[?1c[?25h[?0cd[?25l[?1c[?25h[?0ca[?25l[?1c[?25h[?0ct[?25l[?1c[?25h[?0ce[?25l[?1c[?25h[?0cd[?25l[?1c[?25h[?0cb[?25l[?1c[27d[?25h[?0c[?25l[?1c[?25h[?0c0[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c*[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c*[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c*[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c*[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0cu[?25l[?1c[?25h[?0cp[?25l[?1c[?25h[?0cd[?25l[?1c[?25h[?0ca[?25l[?1c[?25h[?0ct[?25l[?1c[?25h[?0ce[?25l[?1c[?25h[?0cd[?25l[?1c[?25h[?0cb[?25l[?1c[28d[?25h[?0c[?25l[?1c[?25h[?0c0[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c0[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c*[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c*[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0c*[?25l[?1c[?25h[?0c [?25l[?1c[?25h[?0cu[?25l[?1c[?25h[?0cp[?25l[?1c[?25h[?0cd[?25l[?1c[?25h[?0ca[?25l[?1c[?25h[?0ct[?25l[?1c[?25h[?0ce[?25l[?1c[?25h[?0cd[?25l[?1c[?25h[?0cb[?25l[?1c[49;17H[24X[49;41H[0;10;7mM-D[m Формат DOS[26X[49;81H[0;10;7mM-A[m Доп. в начало         [113G        [0;10;7mM-B[m Резерв. копия[K[50;2H[0;10;7mC[m Отмена[17G          [33G        [0;10;7mM-M[m Формат Mac[26X[50;81H[0;10;7mM-P[m Доп. в конец          [113G        [0;10;7m^T[m Обзор[K[48d[0;10;7mИмя файла для записи: /tmp/crontab.sTVEBH/crontab                                                                                                               [48;50H[m[?25h[?0c[?25l[?1c[48;74H[1K [0;10;7m[ Запись… ][m[K[1;98H[0;10;7m [159G[m[48;70H[0;10;7m[ Записано 27 строк ][m[49;17H[0;10;7m^O[m Записать     [0;10;7m^W[m Поиск        [0;10;7m^K[m Вырезать     [0;10;7m^T[m Выполнить    [0;10;7m^C[m Позиция      [0;10;7mM-U[m Отмена[113G[0;10;7mM-A[m Установить м[0;10;7mM-][m На скобку   [0;10;7mM-Q[m Предыдущий[50;2H[0;10;7mX[m Выход [17G[0;10;7m^R[m ЧитФайл[33G[0;10;7m^\[m Замена       [0;10;7m^U[m Вставить     [0;10;7m^J[m Выровнять    [0;10;7m^/[m К строке     [0;10;7mM-E[m Повтор[113G[0;10;7mM-6[m Копировать  [0;10;7m^Q[m Обр. поиск   [0;10;7mM-W[m Следующий[?25h[?0c[28;19H[?25l[?1c[48d[J[50d[?25h[?0c[50;1H[?2004lcrontab: installing new crontab
+[?2004hroot@yegor-VirtualBox:~# crontab -r
+[?2004l[?2004hroot@yegor-VirtualBox:~# exit
+[?2004lвыход
+[?2004hyegor@yegor-VirtualBox:~$ exit
+[?2004lexit
+Есть остановленные задания.
+[?2004hyegor@yegor-VirtualBox:~$ exit
+[?2004lexit
+
+Script done on 2023-10-05 20:16:40+03:00 [COMMAND_EXIT_CODE="1"]
+Script started on 2023-10-06 23:13:00+03:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ cd Рабочий\ стол/
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол[00m$ ps -a > ps.log
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол[00m$ ps - [Ke >> ps.log
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол[00m$ ps a >> ps.log
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол[00m$ ps x >> ps.log
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол[00m$ ps ax >> ps.log
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол[00m$ pidof top
+[?2004l3203
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол[00m$ kill 3203
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол[00m$ fuser -v ps.log
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол[00m$ fuser -v .
+[?2004l                     ПОЛЬЗ-ЛЬ    PID ДОСТУП КОМАНДА
+/home/yegor/Рабочий стол:
+                     yegor      2695 ..c.. bash
+                     yegor      3569 ..c.. gnome-terminal
+                     yegor      3570 ..c.. gnome-terminal.
+                     yegor      3575 ..c.. bash
+                     yegor      3582 ..c.. nano
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол[00m$ vmstat > LaptyonokYegor_vmstat.txt[K[K[K[K
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол[00m$ lsof > LaptyonokYegor_lsof
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол[00m$ exit
+[?2004lexit
+
+Script done on 2023-10-06 23:40:27+03:00 [COMMAND_EXIT_CODE="0"]

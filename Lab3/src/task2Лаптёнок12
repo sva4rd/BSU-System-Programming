@@ -1,0 +1,142 @@
+Script started on 2023-10-14 20:20:34+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="109" LINES="24"]
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[00m$ [7mmkdir awk-examples[27mmkdir awk-examples
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[00m$ cd awk-examples/
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ cd ~
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ pwd
+[?2004l/home/yegor
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ [7mls -la > ~/указать путь до каталога awk-examples/log.txt[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -la > ~/указать путь до каталога awk-examples/log.txt[1Pawk-examples/log.txt[1Pawk-examples/log.txt[1Pawk-examples/log.txt[1Pawk-examples/log.txt[1Pawk-examples/log.txt[1Pawk-examples/log.txt[1Pawk-examples/log.txt[1Pawk-examples/log.txt[1Pawk-examples/log.txt[1Pawk-examples/log.txt[1Pawk-examples/log.txt[1Pawk-examples/log.txt[1Pawk-examples/log.txt[1Pawk-examples/log.txt[1Pawk-examples/log.txt[1Pawk-examples/log.txt[1Pawk-examples/log.txt[1Pawk-examples/log.txt[1Pawk-examples/log.txt[1Pawk-examples/log.txt[1Pawk-examples/log.txt[1Pawk-examples/log.txt[1Pawk-examples/log.txt[1Pawk-examples/log.txt[1Pawk-examples/log.txt[7mРабочий стол/lab3Dir/sp12a-lab3-sva4rd[27mawk-examples/log.txtРабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples/log.txt
+[?2004lls: невозможно получить доступ к 'стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples/log.txt': Нет такого файла или каталога
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ ls -la > ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples/log.txt\ стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples/log.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ cd [7m~/Рабочий\ стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C~/Рабочий\ стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ [7m awk '/bash/ {print}' awk-examp[27m[7ml[27m[7mes/*[27m[A]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$  awk '/bash/ {print}' awk-examples/*
+[?2004lawk: cannot open awk-examples/* (No such file or directory)
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ cd ..
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[00m$ [7m awk '/bash/ {print}' awk-examples/*[27m awk '/bash/ {print}' awk-examples/*
+[?2004l-rw-------  1 yegor yegor 12265 окт 14 20:22 .bash_history
+-rw-r--r--  1 yegor yegor   220 сен 10 12:52 .bash_logout
+-rw-r--r--  1 yegor yegor  3771 сен 10 12:52 .bashrc
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[00m$ [7mawk '/config/' awk-examples/*[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk '/config/' awk-examples/*
+[A
+[?2004ldrwx------ 19 yegor yegor  4096 окт  6 23:48 .config
+-rw-rw-r--  1 yegor yegor    51 окт  1 15:48 .gitconfig
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[00m$ cd ~[K~
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ cd ..
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: /home[01;32myegor@yegor-VirtualBox[00m:[01;34m/home[00m$ cd ..
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: /[01;32myegor@yegor-VirtualBox[00m:[01;34m/[00m$ [7m awk '/QUIT|SETDATE/' /usr/include/protocols/*[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C awk '/QUIT|SETDATE/' /usr/include/protocols/*
+[?2004l#define	TSP_QUIT		13	/* reject candidature if master is up */
+#define	TSP_SETDATE		22	/* New from date command */
+#define	TSP_SETDATEREQ		23	/* New remote for above */
+  "SLAVEUP", "ELECTION", "ACCEPT", "REFUSE", "CONFLICT", "RESOLVE", "QUIT",
+  "TEST", "SETDATE", "SETDATEREQ", "LOOP" };
+[?2004h]0;yegor@yegor-VirtualBox: /[01;32myegor@yegor-VirtualBox[00m:[01;34m/[00m$ cd ..[1P~awk '/config/' awk-examples/*[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K~/Рабочий\ стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ cat myfile 
+[?2004lThis is a test.
+This is the second test.
+This is the third test.
+This is the fourth test.
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ [7mawk '{print $1}' myfile[27mawk '{print $1}' myfile
+[?2004lThis
+This
+This
+This
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ [7mawk '{print $3}' myfile[27mawk '{print $3}' myfile
+[?2004la
+the
+the
+the
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ [7mawk '/foo/ { print toupper($0); }'[27mawk '/foo/ { print toupper($0); }'
+[?2004lThis line contains bar.
+This line contains foo.
+THIS LINE CONTAINS FOO.
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ [7mawk '{print $1,$2,$5}' list_students[27m [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk '{print $1,$2,$5}' list_students [A
+[?2004lАсташко Иван 6
+Бузун Евгений 9
+Кравченя Леонид 4
+Кошкин Владимир 7
+Липин Федор 4
+Пенов Николай 5
+Яшин Петр 8
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ [7mawk '/8/ {print $0}' list_students[27mawk '/8/ {print $0}' list_students
+[?2004lЯшин Петр КБ 4 8
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ [7mawk '($5==4)' list_students[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk '($5==4)' list_students
+[A
+[?2004lКравченя Леонид ПМ 1 4
+Липин Федор ПИ 2 4
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ [7mawk '($3=="КБ")&&($4==1)' list_stude[27m[7mn[27m[7mts [27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk '($3=="КБ")&&($4==1)' list_students
+[A
+[?2004lБузун Евгений КБ 1 9
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ [7mawk '(length($2)>5) {print}' list_st[27m[7mu[27m[7mdents [27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk '(length($2)>5) {print}' list_students
+[A
+[?2004lАсташко Иван ПИ 1 6
+Бузун Евгений КБ 1 9
+Кравченя Леонид ПМ 1 4
+Кошкин Владимир ИН 1 7
+Липин Федор ПИ 2 4
+Пенов Николай ПМ 1 5
+Яшин Петр КБ 4 8
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ [7mawk '{print NR, $0}' list_students[27mawk '{print NR, $0}' list_students
+[?2004l1 Асташко Иван ПИ 1 6
+2 Бузун Евгений КБ 1 9
+3 Кравченя Леонид ПМ 1 4
+4 Кошкин Владимир ИН 1 7
+5 Липин Федор ПИ 2 4
+6 Пенов Николай ПМ 1 5
+7 Яшин Петр КБ 4 8
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ [7mawk '{print toupper ($2)}' list_stud[27m[7me[27m[7mnts[27m[A]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ awk '{print toupper ($2)}' list_students
+[?2004lИван
+Евгений
+Леонид
+Владимир
+Федор
+Николай
+Петр
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ awk '{print toupper ($2)}' list_students
+[?2004lИВАН
+ЕВГЕНИЙ
+ЛЕОНИД
+ВЛАДИМИР
+ФЕДОР
+НИКОЛАЙ
+ПЕТР
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ [7mawk '{sum += $5} END {print("SUM=",s[27m[7mu[27m[7mm)}' list_students[27m[A]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ awk '{sum += $5} END {print("SUM=",sum)}' list_students
+[?2004lSUM= 43
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ [7mawk '($1 ~ /Кравченя/)' list_student[27m[7ms[27m[A]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ awk '($1 ~ /Кравченя/)' list_students
+[?2004lКравченя Леонид ПМ 1 4
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ [7mawk '($1 ~ /Кравченя/)' list_student[27m[7ms[27m[A]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ awk '($1 ~ /Кравченя/)' list_students[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/)' list_students [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1@Л[1@е[1@о[1@н[1@о[1@в
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ [7mawk '($1 ~ /[Лл]ипин/)' list_students[27m 
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk '($1 ~ /[Лл]ипин/)' list_students 
+[K[A[A
+[?2004lЛипин Федор ПИ 2 4
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ [7mawk '($1 ~ /[Лл]ипин/)' list_students[27m 
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk '($1 ~ /[Лл]ипин/)' list_students [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C!($1 ~ /[Лл]ипин/)' list_students [A]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ [C[C[C[C[C[C
+
+[?2004lАсташко Иван ПИ 1 6
+Бузун Евгений КБ 1 9
+Кравченя Леонид ПМ 1 4
+Кошкин Владимир ИН 1 7
+Пенов Николай ПМ 1 5
+Яшин Петр КБ 4 8
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ [7m awk -F”,” '$3>6 {print $1, $2}' colo[27m[7mu[27m[7mrs.csv > output.txt[27m[A]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$  awk -F”,” '$3>6 {print $1, $2}' colours.csv > output.txt
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ cat output.txt 
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ [7mawk -F"," '$3>6 {print $1, $2}' colou[27m[7mr[27m[7ms.csv > output.txt [27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk -F"," '$3>6 {print $1, $2}' colours.csv > output.txt
+[A
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ awk -F"," '$3>6 {print $1, $2}' colours.csv > output.txt[A]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ [22Pcat output.txt 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lgrape purple
+apple green
+potato brown
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ [7mawk '(length($2)>5) {print}' list_stu[27m[7md[27m[7ments[27m[A]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ awk '(length($2)>5) {print}' list_students
+[?2004lБузун Евгений КБ 1 9
+Кравченя Леонид ПМ 1 4
+Кошкин Владимир ИН 1 7
+Пенов Николай ПМ 1 5
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples[00m$ e[K[?2004l
+exit
+
+Script done on 2023-10-14 22:34:38+03:00 [COMMAND_EXIT_CODE="0"]

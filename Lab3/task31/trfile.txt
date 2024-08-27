@@ -1,0 +1,3 @@
+ThIs tImE, whEn tExt Is typEd At thE kEybOArd,
+It Is nOt EchOEd bAck tO thE scrEEn wIth thE trAnslAtIOns mAdE.
+InstEAd, It Is rEdIrEctEd tO thE fIlE trfIlE.txt.

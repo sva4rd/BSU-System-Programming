@@ -1,0 +1,718 @@
+    1  sudo apt update
+    2  sudo apt upgrade
+    3  sudo apt install build-essential
+    4  df -h
+    5  cd media/yeg/VBox_GAs_7.0.6/
+    6  cd /media/yeg/VBox_GAs_7.0.6/
+    7  cd /media/yegor/VBox_GAs_7.0.6/
+    8  sudo ./VBoxLinuxAdditions.run 
+    9  help
+   10  sudo apt install telegram-desktop
+   11  exit
+   12  sudo apt-get install ssh
+   13  sudo apt install openssh-server
+   14  [200~sudo usermod -a -G vboxsf $(whoami)
+   15  ~sudo usermod -a -G vboxsf $(whoami)
+   16  sudo usermod -a -G vboxsf $(whoami)
+   17  exit
+   18  ifconfig
+   19  sudo apt install net-tools
+   20  ifconfig
+   21  locale
+   22  sudo update-locale LC_TIME=ru_RU.UTF-8
+   23  exit
+   24  ls
+   25  exit
+   26  учше
+   27  exit
+   28  ifconfig
+   29  ssh
+   30  ssh service start
+   31  sudo service ssh start
+   32  sudo usermod -l laptyonok12 yegor
+   33  nautilus
+   34  sudo nautilus
+   35  nautilus
+   36  s
+   37  sudo nautilus
+   38  ls
+   39  cd ..
+   40  ls
+   41  cd ..
+   42  ls
+   43  cd etc
+   44  cd s
+   45  ls
+   46  cd ssh
+   47  ls
+   48  nautilus
+   49  sudo apt install nautilus
+   50  nautilus
+   51  exit
+   52  sudo apt install nautilus-admin
+   53  nautilus -q
+   54  sudo systemctl restart ssh
+   55  sudo passwd root
+   56  ifconfig
+   57  sudo service ssh restart
+   58  exit
+   59  ls
+   60  exit
+   61  ls
+   62  exit
+   63  ls
+   64  exit
+   65  ls
+   66  exit
+   67  script newScript
+   68  script newScript.txt
+   69  script -t 2>log.txt task.txt
+   70  ды
+   71  ls
+   72  help
+   73  ls
+   74  cd
+   75  pwd
+   76  mkdir newDir
+   77  rmDir newDir
+   78  rmdir newDir
+   79  script -t 2>Рабочий\ стол/logsDir/timelog3Лаптёнок12 Рабочий\ стол/logsDir/task3Лаптёнок12
+   80  help
+   81  help history
+   82  ls
+   83  cd Документы/
+   84  cd ..
+   85  pwd
+   86  mkdir newdir
+   87  rmdir newdir
+   88  tee file.txt
+   89  rm file.txt
+   90  history
+   91  mkdir Рабочий\ стол/laptyonok
+   92  cal
+   93  date
+   94  who
+   95  whoami
+   96  tee file.txt
+   97  cat file.txt
+   98  vi
+   99  vi file.txt
+  100  cat file.txt
+  101  man cp
+  102  man uplink
+  103  man unlink
+  104  cp file.txt copy.txt
+  105  unlink copy.txt
+  106  sudo nautilus
+  107  ls
+  108  cd ..
+  109  ls
+  110  cd yegor
+  111  ls
+  112  cd .ssh
+  113  sudo -i
+  114  sudo service ssh restart
+  115  sudo service ssh start
+  116  script newScript
+  117  ls
+  118  cd 'рабочий стол'
+  119  cd Рабочий\ стол/logsDir/
+  120  cd .. ..
+  121  cd .. 
+  122  cd ..
+  123  script -t 2>Рабочий\ стол/logsDir/timelog3Лаптёнок12 Рабочий\ стол/logsDir/task3Лаптёнок12
+  124  ifconfig
+  125  git
+  126  git
+  127  sudo apt install git
+  128  git config --global user.name sva4rd
+  129  git config user.name
+  130  git config --global user.email egor71175@gmail.com
+  131  git config user.email
+  132  ssh-keygen -t rsa -b 4096 -C egor71175@gmail.com
+  133  eval $(ssh-agent -s)
+  134  ssh-add ~/.ssh/id_rsa
+  135  ssh -T git@github.com
+  136  ls
+  137  cd Рабочий\ стол/
+  138  cd laptyonok/
+  139  git clone git@github.com:fpmi-sysprog-2023/sp12a-lab1-sva4rd.git
+  140  учше
+  141  exit
+  142  man ln
+  143  cd Рабочий\ стол/laptyonok/
+  144  mkdir A
+  145  cd A
+  146  mkdir B C D
+  147  touch a.txt
+  148  cd B
+  149  touch b.txt c.txt
+  150  cd ../C
+  151  touch d.txt
+  152  cd ../D
+  153  touch e.txt
+  154  cd ../B
+  155  ln ../C/d.txt d.txt
+  156  ln ../D/e.txt e.txt
+  157  cd ..
+  158  ln -s D/e.txt a.txt
+  159  rm a.txt
+  160  ln -s D/e.txt a.txt
+  161  ls
+  162  ls -la
+  163  cd B
+  164  ls 
+  165  ls -la
+  166  cd ../C
+  167  ls -la
+  168  cd ../D
+  169  ls -la
+  170  cd ..
+  171  vi D/e.txt
+  172  cat a.txt
+  173  vi C/d.txt
+  174  cat B/d.txt 
+  175  rm D/e.txt 
+  176  cd D
+  177  ls -la
+  178  cd ..
+  179  ls -la
+  180  rm C/d.txt 
+  181  cd B
+  182  ls -la
+  183  cat d.txt 
+  184  cd ..
+  185  unlink a.txt
+  186  ls -la
+  187  unlink B/e.txt 
+  188  rm -r B
+  189  rmdir C
+  190  cd ..
+  191  rmdir A
+  192  rm -r A
+  193  2
+  194  ls
+  195  pwd
+  196  man cd
+  197  man man
+  198  history
+  199  pwd
+  200  git --version
+  201  scp predator@192.168.0.109:/d/hostFile.txt /home/yegor/laptyonok
+  202  man scp
+  203  history 
+  204  script -t 2>Рабочий\ стол/logsDir/timelog5Лаптёнок129 Рабочий\ стол/logsDir/task5Лаптёнок129
+  205  midnight commander
+  206  sudo apt -y install mc
+  207  mc
+  208  history
+  209  script -t 2>Рабочий\ стол/logsDir/timelog5Лаптёнок129 Рабочий\ стол/logsDir/task5Лаптёнок129
+  210  script -a -t 2>Рабочий\ стол/logsDir/timelog5Лаптёнок129 Рабочий\ стол/logsDir/task5Лаптёнок129
+  211  cd Рабочий\ стол/
+  212  gzip info
+  213  man gzip
+  214  gzip -k file.txt
+  215  gzip -c file.txt
+  216  gzip -c file.txt > zip.gz
+  217  gzip  file.txt
+  218  gunzip file.txt.gz 
+  219  tar file.txt
+  220  man tar
+  221  tar -c -f tarchick.tar file.txt 
+  222  gzip -k tarchick.tar 
+  223  cd Рабочий\ стол/laptyonok/A/
+  224  gzip -c file.txt > first.gz
+  225  gzip -k file.txt > second.gz
+  226  cd Рабочий\ стол/laptyonok/A/
+  227  gzip -k file.txt
+  228  gzip -c file.txt > file2.txt.gz
+  229  cat file.txt
+  230  gunzip -k file.txt.gz 
+  231  cat file.txt
+  232  tar -c -f file.tar
+  233  tar -c -f file.tar file.txt
+  234  gzip -k file.tar
+  235  ls
+  236  tar -xvf file.tar
+  237  gunzip -k file.tar.gz
+  238  tar -xvf file.tar
+  239  cat file.txt
+  240  cd Рабочий\ стол/laptyonok/A/
+  241  gzip -k file.txt 
+  242  gzip -c file.txt file2.txt.gz
+  243  gzip -c file.txt > file2.txt.gz
+  244  cat file.txt
+  245  gunzip -k file.txt.gz 
+  246  cat file.txt
+  247  ls
+  248  cd Рабочий\ стол/laptyonok/A/
+  249  tar -c -f file.tar file.txt 
+  250  gzip -k file.tar 
+  251  ls
+  252  tar -xvf file.tar
+  253  cat file.txt 
+  254  gunzip -k file.tar.gz 
+  255  tar -xvf file.tar
+  256  cat file.txt 
+  257  script -t 2>Рабочий\ стол/logsDir/timelog6Лаптёнок12 Рабочий\ стол/logsDir/task6Лаптёнок12
+  258  cd .. 
+  259  cd ..
+  260  script -t 2>Рабочий\ стол/logsDir/timelog6Лаптёнок12 Рабочий\ стол/logsDir/task6Лаптёнок12
+  261  tar -xvf file.tar
+  262  cd Рабочий\ стол/laptyonok/A
+  263  tar -xvf file.tar
+  264  cd ..
+  265  script -t 2>Рабочий\ стол/logsDir/timelog6Лаптёнок12 Рабочий\ стол/logsDir/task6Лаптёнок12
+  266  script -a -t 2>Рабочий\ стол/logsDir/timelog6Лаптёнок12 Рабочий\ стол/logsDir/task6Лаптёнок12
+  267  touch sf_ubuntu_dir.desktop
+  268  chmod +rx ~/Desktop/sf_ubuntu_dir.desktop
+  269  chmod +rx ~/Рабочий\ стол/sf_ubuntu_dir.desktop
+  270  ln -s /media/sf_ubuntu_dir ~/Рабочий\ стол/sf_ubuntu_dir
+  271  git --version
+  272  cd Рабочий\ стол/laptyonok/
+  273  git clone git@github.com:fpmi-sysprog-2023/sp12a-lab1-sva4rd.git
+  274  cd ..
+  275  scp user@192.168.0.109:D:/hostFile.txt /home/yegor/Рабочий\ стол/dir/hostFile.txt
+  276  cat Рабочий\ стол/dir/hostFile.txt 
+  277  ssh predator@192.168.0.109
+  278  whoami
+  279  ssh yegor@192.168.0.109
+  280  ssh user@192.168.0.109
+  281  history
+  282  scp user@192.168.0.109:/d/hostFile.txt /home/yegor/laptyonok
+  283  scp user@192.168.0.109:D:/hostFile.txt /home/yegor/laptyonok
+  284  scp user@192.168.0.109:D:/hostFile.txt /home/yegor/laptyonok/
+  285  script -t 2>Рабочий\ стол/logsDir/timelog4Лаптёнок12 Рабочий\ стол/logsDir/task4Лаптёнок12
+  286  exit
+  287  git status
+  288  git add .
+  289  git commit -m "upd readme"
+  290  git status
+  291  git checkout -b dev
+  292  git add .
+  293  git commit -m "task3 upd"
+  294  git add .
+  295  git commit -m "task4 upd"
+  296  git add .
+  297  git commit -m "task5 upd"
+  298  git add .
+  299  git commit -m "task6 upd"
+  300  git remote
+  301  git push --all origin
+  302  git status
+  303  git add .
+  304  git status
+  305  git commit -m "put in folder"
+  306  git add -A
+  307  git status
+  308  git commit -m "del files"
+  309  git push origin dev
+  310  exit
+  311  help
+  312  ls
+  313  cd Видео/
+  314  cd ..
+  315  pwd
+  316  mkdir newdir
+  317  rm newdir
+  318  rmdir newdir
+  319  history
+  320  man history
+  321  info history
+  322  mkdir Рабочий\ стол/laptyonok
+  323  cal
+  324  sudo apt install ncal
+  325  cal
+  326  date
+  327  who
+  328  whoami
+  329  tee text.txt
+  330  cat text.txt
+  331  vi text.txt
+  332  git gui
+  333  sudo apt-get install git-gui
+  334  git gui
+  335  exit
+  336  git citool
+  337  exit
+  338  sudo groupadd student12
+  339  useradd laptyonok12
+  340  sudo useradd laptyonok12
+  341  sudo chage -E $(date -d '1 november' +%Y-%m-%d) laptyonok12
+  342  sudo chage -M 3 laptyonok12
+  343  sudo adduser visitor12
+  344  exit
+  345  history
+  346  script -t 2>Рабочий\ стол/logsDir/timelog1Лаптёнок12 Рабочий\ стол/logsDir/task1Лаптёнок12
+  347  exit
+  348  sudo usermod -a -G student12 laptyonok12
+  349  sudo usermod -a -G student12 visitor12
+  350  groups laptyonok12
+  351  groups visitor12
+  352  exit
+  353  script -a -t 2>Рабочий\ стол/logsDir/timelog1Лаптёнок12 Рабочий\ стол/logsDir/task1Лаптёнок12
+  354  exit
+  355  sudo passwd laptyonok12
+  356  chage -E 2023-12-24 visitor12
+  357  sudo chage -E 2023-12-24 visitor12
+  358  sudo chfn visitor12
+  359  sudo usermod -l guest12 visitor12
+  360  sudo usermod -l studentLaptyonok12 laptyonok12
+  361  sudo useradd -u 2000 -g users -G mail -d /home/nouser -M -s /usr/sbin/nologin testLaptyonok12
+  362  sudo touch /etc/denied_users
+  363  tail -f /var/log/auth.log 
+  364  sudo systemctl restart sshd
+  365  tail -f /var/log/auth.log 
+  366  exit
+  367  script -a -t 2>Рабочий\ стол/logsDir/timelog1Лаптёнок12 Рабочий\ стол/logsDir/task1Лаптёнок12
+  368  su - studentLaptyonok12
+  369  sudo passwd studentLaptyonok12
+  370  su - studentLaptyonok12
+  371  su - studentLaptyonok12 
+  372  sudo systemctl restart sshd
+  373  su - studentLaptyonok12 
+  374  sudo mkhomedir_helper studentLaptyonok12
+  375  su - studentLaptyonok12 
+  376  sudo systemctl restart sshd
+  377  su - studentLaptyonok12 
+  378  sudo systemctl restart sshd
+  379  su - studentLaptyonok12 
+  380  sudo systemctl restart sshd
+  381  su - studentLaptyonok12 
+  382  --login
+  383  login
+  384  sudo login
+  385  sudo nautilus
+  386  git clone git@github.com:fpmi-sysprog-2023/sp12a-lab2-sva4rd.git
+  387  cd sp12a-lab2-sva4rd/
+  388  git status
+  389  git checkout -b dev
+  390  mkdir scripts
+  391  git status
+  392  git add .
+  393  git commit -m "task1 upd"
+  394  who -b
+  395  last -s 2weeks
+  396  last -s -2weeks
+  397  last
+  398  gur atstus
+  399  git status 
+  400  git push origin dev
+  401  exit
+  402  su - studentLaptyonok12
+  403  chmod --help
+  404  acl
+  405  sudo apt-get install acl
+  406  eexit
+  407  exit
+  408  sudo -i
+  409  ls
+  410  cd /root/tmp/lab2Laptyonok12
+  411  sudo cd /root/tmp/lab2Laptyonok12
+  412  exit
+  413  cd Рабочий\ стол/
+  414  setfacl -m g:$(id -gn):rwx 11
+  415  touch 11/newfile
+  416  exit
+  417  git status
+  418  cd sp12a-lab2-sva4rd/
+  419  git status
+  420  git add .
+  421  git branch
+  422  git commit -m "task2 upd"
+  423  git push origin dev
+  424  exit
+  425  sudo -i
+  426  kill -TERM 7473
+  427  kill -INT 7764
+  428  kill -QUIT 14391
+  429  kill -HUP 14426
+  430  exit
+  431  tail -f log
+  432  jobs
+  433  exit
+  434  (while true; do echo -n A >> log; sleep 1; done)
+  435  bg
+  436  (while true; do echo -n B >> log; sleep 1; done)
+  437  (while true; do echo -n B >> log; sleep 1; done) &
+  438  jobs
+  439  jobs -l
+  440  renice 10 -p 8089
+  441  kill -STOP 7473
+  442  jobs -l
+  443  jobs -l
+  444  kill -TERM 7764
+  445  jobs
+  446  jobs -l
+  447  ps -aux --sort=start_time | head -n 4
+  448  ls *.txt | sed 's/e/E/g' > ls_log.txt
+  449  ls -l | tee wordscount.txt | wc
+  450  (while true; do echo -n C >> log; sleep 1; done) &
+  451  (while true; do echo -n D >> log; sleep 1; done) &
+  452  jobs -l
+  453  bash
+  454  sleep 1000 &
+  455  kill -TERM 16169
+  456  kill -INT 16188
+  457  kill -QUIT 16207
+  458  kill -HUP 16244
+  459  sudo -i
+  460  exit
+  461  history
+  462  script -a -t 2>Рабочий\ стол/logsDir/timelog3Лаптёнок12 Рабочий\ стол/logsDir/task3Лаптёнок12
+  463  exit
+  464  history
+  465  su - studentLaptyonok12
+  466  sudo -i
+  467  clear
+  468  history
+  469  script -a -t 2>Рабочий\ стол/logsDir/timelog2Лаптёнок12 Рабочий\ стол/logsDir/task2Лаптёнок12
+  470  clear
+  471  history
+  472  exit
+  473  jobs
+  474  ps -u yegor
+  475  ps -u studentLaptyonok12
+  476  ps -u guest12
+  477  ps -a > /Раюочий\ стол/ps.log
+  478  ps -a > /Рабочий\ стол/ps.log
+  479  ps -a > Рабочий\ стол/ps.log
+  480  nano ps.log 
+  481  top
+  482  cd Рабочий\ стол/
+  483  fuser ps.log 
+  484  sudo fuser ps.log 
+  485  fuser
+  486  fuser .
+  487  fuser -v .
+  488  fuser -v ps.log 
+  489  fuser -v .
+  490  fuser -v 3503
+  491  fuser -v ps.log 
+  492  fuser ~/Рабочий\ стол/ps.log
+  493  vi ps.log 
+  494  nano ps.log
+  495  cd Рабочий\ стол/
+  496  ps -a > ps.log
+  497  ps -e >> ps.log
+  498  ps a >> ps.log
+  499  ps x >> ps.log
+  500  ps ax >> ps.log
+  501  pidof top
+  502  kill 3203
+  503  fuser -v ps.log
+  504  fuser -v .
+  505  vmstat > LaptyonokYegor_vmstat
+  506  lsof > LaptyonokYegor_lsof
+  507  exit
+  508  cd Рабочий\ стол/
+  509  cat ps.log
+  510  ps -a > ps.log
+  511  cat ps.log
+  512  ps -a >> ps.log
+  513  cat ps.log
+  514  script -a -t 2>Рабочий\ стол/logsDir/timelog3Лаптёнок12 Рабочий\ стол/logsDir/task3Лаптёнок12
+  515  cd ..
+  516  script -a -t 2>Рабочий\ стол/logsDir/timelog3Лаптёнок12 Рабочий\ стол/logsDir/task3Лаптёнок12
+  517  git status
+  518  git add .
+  519  git commit -m "task3 upd"
+  520  git push origin dev
+  521  ifconfig
+  522  ping
+  523  ping https://www.youtube.com/
+  524  ping https://www.youtube.com
+  525  ping youtube.com
+  526  ping -n 10 yputube.com
+  527  ping -n 10 youtube.com
+  528  ping --help
+  529  ping -c 10 youtube.com
+  530  tracert
+  531  tracert6
+  532  ifconfig --help
+  533  exit
+  534  git clone git@github.com:fpmi-sysprog-2023/sp12a-lab3-sva4rd.git
+  535  git status
+  536  cd sp12a-lab3-sva4rd/
+  537  git status
+  538  git add .
+  539  git commit -m "add readme.md"
+  540  git checkout -b dev
+  541  branch
+  542  git branch
+  543  cat > file.my <<END
+  544  name
+  545  filename
+  546  listname
+  547  list
+  548  copy
+  549  printname
+  550  university
+  551  university name
+  552  lastname
+  553  last
+  554  lastname
+  555  listname
+  556  firstname
+  557  position name
+  558  job
+  559  job description
+  560  END
+  561  cat file.my
+  562  nl file.my
+  563  history
+  564  script -a -t 2>~/Рабочий\ стол/logsDir/timelog1Лаптёнок12 ~/Рабочий\ стол/logsDir/task1Лаптёнок12
+  565  exit
+  566  touch task4
+  567  touch task4.txt
+  568  cat file.my > file.my.new
+  569  grep name file.my > names
+  570  touch packages1.txt
+  571  grep list file.my >> names
+  572  sort < file.my
+  573  cat file.my NameS 2>errors
+  574  cat errors 
+  575  cat file.my NameS > output 2>&1
+  576  cat output 
+  577  cat file.my NameS 2>&1 > someoutput
+  578  cat someoutput 
+  579  cat > typedin.txt
+  580  ls -l typedin.txt
+  581  cat typedin.txt
+  582  tr ’aeiou’ ’AEIOU’ > trfile.txt
+  583  ls -l trfile.txt
+  584  cat trfile.txt
+  585  cat < packages1.txt
+  586  tr ’aeiou’ ’AEIOU’ < packages1.txt
+  587  tr ’aeiou’ ’AEIOU’ < packages1.txt > packages1.trfile.txt
+  588  ls -l packages1.txt packages1.trfile.txt
+  589  cat packages1.trfile.txt
+  590  cat file.my | grep name > grep_names
+  591  cat file.my | grep name | wc -l
+  592  cat file.my | uniq | sort
+  593  git status
+  594  git add task31/
+  595  git status
+  596  git commit -m "add task2.1 source"
+  597  git add .
+  598  git status
+  599  git commit -m "add task2.1 scripts"
+  600  git status
+  601  git push origin main
+  602  git push origin dev
+  603  exit
+  604  cd ~
+  605  touch myfile
+  606  exit
+  607  touch list_students
+  608  awk '{print toupper ($2)}' list_students
+  609  wk '{print toupper $2}' list_students
+  610  awk '{print toupper $2}' list_students
+  611  awk '{print toupper($2)}' list_students
+  612  awk
+  613  awk -W version
+  614  gawk
+  615  sudo apt install gawk
+  616  gawk '{print toupper($2)}' list_students
+  617  awk '{print toupper($2)}' list_students
+  618  awk -W version
+  619  gawk
+  620  gavk -V
+  621  gawk -V
+  622  exit
+  623  touch colours.csv
+  624  exit
+  625  awk '(length($2)>5) {print}' list_students
+  626  mkdir awk-examples
+  627  cd awk-examples/
+  628  cd ~
+  629  pwd
+  630  ls -la > ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples/log.txt
+  631  ls -la > ~/Рабочий\ стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples/log.txt
+  632  cd ~/Рабочий\ стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples
+  633  cd ..
+  634  awk '/config/' awk-examples/*
+  635  cd ~
+  636  cd ..
+  637  cd ~/Рабочий\ стол/lab3Dir/sp12a-lab3-sva4rd/awk-examples
+  638  cat myfile 
+  639  awk '{print $1}' myfile
+  640  awk '{print $3}' myfile
+  641  awk '/foo/ { print toupper($0); }'
+  642  awk '{print $1,$2,$5}' list_students
+  643  awk '/8/ {print $0}' list_students
+  644  awk '($5==4)' list_students
+  645  awk '($3=="КБ")&&($4==1)' list_students
+  646  awk '(length($2)>5) {print}' list_students
+  647  awk '{print NR, $0}' list_students
+  648  awk '{print toupper ($2)}' list_students
+  649  awk '{sum += $5} END {print("SUM=",sum)}' list_students
+  650  awk '($1 ~ /Кравченя/)' list_students
+  651  awk '($1 ~ /Леонов/)' list_students
+  652  awk '($1 ~ /[Лл]ипин/)' list_students
+  653  awk '!($1 ~ /[Лл]ипин/)' list_students
+  654  cat output.txt 
+  655  awk -F"," '$3>6 {print $1, $2}' colours.csv > output.txt
+  656  cat output.txt 
+  657  awk '(length($2)>5) {print}' list_students
+  658  touch books
+  659  touch records
+  660  touch appends
+  661  touch insert
+  662  exit
+  663  cat books
+  664  sed '/book/ p' books
+  665  sed -n '/book/ p' books
+  666  sed -n '2,5 p' books
+  667  sed -n -f records books
+  668  sed -f appends books
+  669  sed -f insert books
+  670  sed -n 's/book/novel/ p' books
+  671  git status
+  672  git add awk-examples/
+  673  git commit -m "add task2.2 source"
+  674  git add src/task2Лаптёнок12 src/timelog2Лаптёнок12 
+  675  git commit -m "add task2.2 scripts"
+  676  git status
+  677  git add sed-examples/
+  678  git commit -m "add task2.3 source"
+  679  git status
+  680  git add .
+  681  git commit -m "add task2.3 scripts"
+  682  git status
+  683  git push origin dev
+  684  exit
+  685  touch task2.sh task3.sh task4.sh
+  686  touch test_task_4.txt
+  687  task2.sh
+  688  ./task2.sh
+  689  sudo ./task2.sh
+  690  chmod +x task2.sh
+  691  ./task2.sh
+  692  ./task2.sh cars.txt
+  693  chmod +x task2.awk
+  694  ./task2.awk cars.txt
+  695  awk -f task2.awk cars.txt
+  696  chmod +x task4.sh
+  697  ./task4.sh
+  698  ./animals.sed animals_test 
+  699  sed -n -f animals.sed animals_test 
+  700  sed -f animals.sed animals_test 
+  701  chmod +x task4.sh 
+  702  ./task4.sh 
+  703  ./task4.sh
+  704  chmod +x animals.sh
+  705  ./animals.sh 
+  706  ./animals.sh 
+  707  ./animals.sh test_task_4.txt 
+  708  ./animals.sh
+  709  cd ..
+  710  cd task2.4/
+  711  cd ~
+  712  cd ..
+  713  ls -l /etc | grep '^-' | sort | cat -n
+  714  cd ~/Рабочий\ стол/lab3Dir/sp12a-lab3-sva4rd/task2.4/
+  715  ./task2.awk cars.txt
+  716  awk -f task2.awk cars.txt
+  717  awk -f task3.awk 
+  718  history > history

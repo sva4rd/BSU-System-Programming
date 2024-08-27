@@ -1,0 +1,111 @@
+Script started on 2023-10-01 16:35:58+03:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ 
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ cd З[KРабочий\ стол/laptyonok/
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok[00m$ [7mmkdir A[27mmkdir A
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok[00m$ cd A
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A[00m$ [7mmkdir B C D[27mmkdir B C D
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A[00m$ [7mtouch a.txt[27mtouch a.txt
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A[00m$ cd B
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A/B[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A/B[00m$ touch [7mb.txt c.txt[27mb.txt c.txt
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A/B[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A/B[00m$ cd ../C
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A/C[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A/C[00m$ [7mtouch d.txt[27mtouch d.txt
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A/C[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A/C[00m$ cd ../D
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A/D[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A/D[00m$ touch e.txt
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A/D[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A/D[00m$ cd ../B
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A/B[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A/B[00m$ [7mln ../C/d.txt d.txt[27mln ../C/d.txt d.txt
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A/B[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A/B[00m$ [7mln ../D/e.txt e.txt[27mln ../D/e.txt e.txt
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A/B[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A/B[00m$ cd ..
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A[00m$ [7mln -s D/e.txt a.txt[27mln -s D/e.txt a.txt
+[?2004lln: не удалось создать символьную ссылку 'a.txt': Файл существует
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A[00m$ rm a.txt
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A[00m$ rm a.txt[11@ln -s D/e.txt[C[C[C[C[C[C
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A[00m$ ls
+[?2004l[0m[01;36ma.txt[0m  [01;34mB[0m  [01;34mC[0m  [01;34mD[0m
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A[00m$ ls -la
+[?2004lитого 20
+drwxrwxr-x 5 yegor yegor 4096 окт  1 16:52 [0m[01;34m.[0m
+drwxrwxr-x 4 yegor yegor 4096 окт  1 16:49 [01;34m..[0m
+lrwxrwxrwx 1 yegor yegor    7 окт  1 16:52 [01;36ma.txt[0m -> D/e.txt
+drwxrwxr-x 2 yegor yegor 4096 окт  1 16:51 [01;34mB[0m
+drwxrwxr-x 2 yegor yegor 4096 окт  1 16:50 [01;34mC[0m
+drwxrwxr-x 2 yegor yegor 4096 окт  1 16:51 [01;34mD[0m
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A[00m$ cd B
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A/B[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A/B[00m$ ls 
+[?2004lb.txt  c.txt  d.txt  e.txt
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A/B[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A/B[00m$ ls -la
+[?2004lитого 8
+drwxrwxr-x 2 yegor yegor 4096 окт  1 16:51 [0m[01;34m.[0m
+drwxrwxr-x 5 yegor yegor 4096 окт  1 16:52 [01;34m..[0m
+-rw-rw-r-- 1 yegor yegor    0 окт  1 16:50 b.txt
+-rw-rw-r-- 1 yegor yegor    0 окт  1 16:50 c.txt
+-rw-rw-r-- 2 yegor yegor    0 окт  1 16:50 d.txt
+-rw-rw-r-- 2 yegor yegor    0 окт  1 16:51 e.txt
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A/B[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A/B[00m$ cd ../C
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A/C[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A/C[00m$ ls -la
+[?2004lитого 8
+drwxrwxr-x 2 yegor yegor 4096 окт  1 16:50 [0m[01;34m.[0m
+drwxrwxr-x 5 yegor yegor 4096 окт  1 16:52 [01;34m..[0m
+-rw-rw-r-- 2 yegor yegor    0 окт  1 16:50 d.txt
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A/C[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A/C[00m$ cd ../D
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A/D[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A/D[00m$ ls -la
+[?2004lитого 8
+drwxrwxr-x 2 yegor yegor 4096 окт  1 16:51 [0m[01;34m.[0m
+drwxrwxr-x 5 yegor yegor 4096 окт  1 16:52 [01;34m..[0m
+-rw-rw-r-- 2 yegor yegor    0 окт  1 16:51 e.txt
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A/D[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A/D[00m$ cd ..
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A[00m$ vi D/e.txt
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"D/e.txt" 0 lines, 0 bytes[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?2004l[>4;m[?25l[me[?25h[?25l.[?25h[?25lt[?25h[?25lx[?25h[?25lt[?25h[?25l [?25h[?25lf[?25h[?25li[?25h[?25ll[?25h[?25le[?25h[?25l [?25h[?25li[?25h[?25ln[?25h[?25lf[?25h[?25lo[?25h[?2004h[>4;2m[?25l[24;1H[K[24;1H:[?25hwq[?25l[?2004l[>4;m"D/e.txt" 1 line, 16 bytes written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A[00m$ cat a.txt
+[?2004le.txt file info
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A[00m$ vi C/d.txt
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"C/d.txt" 0 lines, 0 bytes[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?2004l[>4;m[?25l[md[?25h[?25l.[?25h[?25lt[?25h[?25lx[?25h[?25lt[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25lc[?25h[?2004h[>4;2m[?25l[1;2H[K[1;1H[?25h[?25lC[?25h[?25l[1;1H[K[1;1H[?25h[?2004l[>4;m[?25lC[?25h[?25l/[?25h[?25ld[?25h[?25l.[?25h[?25lt[?25h[?25lx[?25h[?25lt[?25h[?25l [?25h[?25lf[?25h[?25li[?25h[?25ll[?25h[?25le[?25h[?25l [?25h[?25li[?25h[?25ln[?25h[?25lf[?25h[?25lo[?25h[?2004h[>4;2m[?25l[24;1H[K[24;1H:[?25hwq[?25l[?2004l[>4;m"C/d.txt" 1 line, 18 bytes written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A[00m$ cat B/d.txt 
+[?2004lC/d.txt file info
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A[00m$ rm D/e.txt 
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A[00m$ cd D
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A/D[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A/D[00m$ ls -la
+[?2004lитого 8
+drwxrwxr-x 2 yegor yegor 4096 окт  1 17:03 [0m[01;34m.[0m
+drwxrwxr-x 5 yegor yegor 4096 окт  1 16:52 [01;34m..[0m
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A/D[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A/D[00m$ cd ..
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A[00m$ ls - [Kla
+[?2004lитого 20
+drwxrwxr-x 5 yegor yegor 4096 окт  1 16:52 [0m[01;34m.[0m
+drwxrwxr-x 4 yegor yegor 4096 окт  1 16:49 [01;34m..[0m
+lrwxrwxrwx 1 yegor yegor    7 окт  1 16:52 [40;31;01ma.txt[0m -> [40;31;01mD/e.txt[0m
+drwxrwxr-x 2 yegor yegor 4096 окт  1 16:51 [01;34mB[0m
+drwxrwxr-x 2 yegor yegor 4096 окт  1 17:01 [01;34mC[0m
+drwxrwxr-x 2 yegor yegor 4096 окт  1 17:03 [01;34mD[0m
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A[00m$ rm C/d.txt 
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A[00m$ cdB[K B
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A/B[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A/B[00m$ ls -la
+[?2004lитого 16
+drwxrwxr-x 2 yegor yegor 4096 окт  1 16:51 [0m[01;34m.[0m
+drwxrwxr-x 5 yegor yegor 4096 окт  1 16:52 [01;34m..[0m
+-rw-rw-r-- 1 yegor yegor    0 окт  1 16:50 b.txt
+-rw-rw-r-- 1 yegor yegor    0 окт  1 16:50 c.txt
+-rw-rw-r-- 1 yegor yegor   18 окт  1 17:01 d.txt
+-rw-rw-r-- 1 yegor yegor   16 окт  1 17:00 e.txt
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A/B[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A/B[00m$ cat d.txt 
+[?2004lC/d.txt file info
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A/B[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A/B[00m$ cd ..
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A[00m$ unlink a.txt
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A[00m$ ls -la
+[?2004lитого 20
+drwxrwxr-x 5 yegor yegor 4096 окт  1 17:06 [0m[01;34m.[0m
+drwxrwxr-x 4 yegor yegor 4096 окт  1 16:49 [01;34m..[0m
+drwxrwxr-x 2 yegor yegor 4096 окт  1 16:51 [01;34mB[0m
+drwxrwxr-x 2 yegor yegor 4096 окт  1 17:04 [01;34mC[0m
+drwxrwxr-x 2 yegor yegor 4096 окт  1 17:03 [01;34mD[0m
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A[00m$ ub[Knlink B/e.txt 
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A[00m$ rm -r B
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A[00m$ rmdir C
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok/A[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok/A[00m$ rmdir[K[K[K[K[Kcd ..
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok[00m$ rmdir A
+[?2004lrmdir: не удалось удалить 'A': Каталог не пуст
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok[00m$ rm -r A
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/laptyonok[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/laptyonok[00m$ [?2004l
+exit
+
+Script done on 2023-10-01 17:11:01+03:00 [COMMAND_EXIT_CODE="130"]

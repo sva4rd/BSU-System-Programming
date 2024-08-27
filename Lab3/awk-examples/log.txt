@@ -1,0 +1,29 @@
+итого 112
+drwxr-x--- 16 yegor yegor  4096 окт 14 20:23 .
+drwxr-xr-x  5 root  root   4096 окт  2 22:34 ..
+-rw-------  1 yegor yegor 12265 окт 14 20:22 .bash_history
+-rw-r--r--  1 yegor yegor   220 сен 10 12:52 .bash_logout
+-rw-r--r--  1 yegor yegor  3771 сен 10 12:52 .bashrc
+drwx------ 18 yegor yegor  4096 окт  6 23:49 .cache
+drwx------ 19 yegor yegor  4096 окт  6 23:48 .config
+-rw-rw-r--  1 yegor yegor    51 окт  1 15:48 .gitconfig
+drwx------  2 yegor yegor  4096 окт  1 20:13 .gnupg
+-rw-------  1 yegor yegor    20 окт 14 18:46 .lesshst
+drwx------  3 yegor yegor  4096 сен 10 12:56 .local
+-rw-r--r--  1 yegor yegor   807 сен 10 12:52 .profile
+drwx------  4 yegor yegor  4096 окт  1 13:17 snap
+drwx------  2 yegor yegor  4096 окт  1 20:30 .ssh
+-rw-r--r--  1 yegor yegor     0 сен 10 13:14 .sudo_as_admin_successful
+-rw-r-----  1 yegor yegor     5 окт 14 18:41 .vboxclient-clipboard.pid
+-rw-r-----  1 yegor yegor     5 окт 14 18:41 .vboxclient-draganddrop.pid
+-rw-r-----  1 yegor yegor     5 окт 14 18:41 .vboxclient-seamless.pid
+-rw-r-----  1 yegor yegor     5 окт 14 18:41 .vboxclient-vmsvga-session-tty2.pid
+drwxr-xr-x  2 yegor yegor  4096 сен 10 12:56 Видео
+drwxr-xr-x  2 yegor yegor  4096 сен 10 12:56 Документы
+drwxr-xr-x  3 yegor yegor  4096 окт  1 19:50 Загрузки
+drwxr-xr-x  3 yegor yegor  4096 сен 14 14:42 Изображения
+drwxr-xr-x  2 yegor yegor  4096 сен 10 12:56 Музыка
+drwxr-xr-x  2 yegor yegor  4096 сен 10 12:56 Общедоступные
+-rw-rw-r--  1 yegor yegor     0 окт 14 20:23 Рабочий
+drwxr-xr-x  5 yegor yegor  4096 окт 14 19:09 Рабочий стол
+drwxr-xr-x  2 yegor yegor  4096 сен 10 12:56 Шаблоны

@@ -1,0 +1,3 @@
+./laptyonok4.txt:laptyonok
+./laptyonok1.txt:laptyonok
+./laptyonok5.txt:laptyonok

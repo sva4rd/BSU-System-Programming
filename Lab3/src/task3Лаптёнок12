@@ -1,0 +1,68 @@
+Script started on 2023-10-14 22:36:49+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="115" LINES="24"]
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/sed-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/sed-examples[00m$ cat books
+[?2004lBook one.
+The second book.
+The third.
+This is book four.
+Five.
+This is the sixth.
+This is book seven.
+Eighth and last. 
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/sed-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/sed-examples[00m$ [7msed '/book/ p' books[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csed '/book/ p' books
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lBook one.
+The second book.
+The second book.
+The third.
+This is book four.
+This is book four.
+Five.
+This is the sixth.
+This is book seven.
+This is book seven.
+Eighth and last. 
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/sed-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/sed-examples[00m$ [7msed -n '/book/ p' books[27msed -n '/book/ p' books
+[?2004lThe second book.
+This is book four.
+This is book seven.
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/sed-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/sed-examples[00m$ [7msed -n '2,5 p' books[27msed -n '2,5 p' books
+[?2004lThe second book.
+The third.
+This is book four.
+Five.
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/sed-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/sed-examples[00m$ [7msed -n -f records books[27msed -n -f records books
+[?2004lThe second book.
+The third.
+This is book four.
+Five.
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/sed-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/sed-examples[00m$ [7msed -f appends books[27msed -f appends books
+[?2004lBook one.
+The second book.
+The third.
+My favorite book.
+This is book four.
+Five.
+This is the sixth.
+This is book seven.
+Eighth and last. 
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/sed-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/sed-examples[00m$ [7msed -f insert books[27msed -f insert books
+[?2004lBook one.
+The second book.
+The third.
+SKARBONKA.
+This is book four.
+Five.
+SKARBONKA.
+This is the sixth.
+SKARBONKA.
+This is book seven.
+Eighth and last. 
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/sed-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/sed-examples[00m$ [7msed -n 's/book/novel/ p' books[27msed -n 's/book/novel/ p' books
+[?2004lThe second novel.
+This is novel four.
+This is novel seven.
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/sed-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/sed-examples[00m$ [?2004l
+exit
+
+Script done on 2023-10-14 22:50:29+03:00 [COMMAND_EXIT_CODE="0"]

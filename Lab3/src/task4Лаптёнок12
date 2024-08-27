@@ -1,0 +1,291 @@
+Script started on 2023-10-14 23:45:19+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="115" LINES="24"]
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/sed-examples[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/sed-examples[00m$ cd ..
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd[00m$ cd task2.4/
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task2.4[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task2.4[00m$ cd ~
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ cd ..
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: /home[01;32myegor@yegor-VirtualBox[00m:[01;34m/home[00m$ cd ..
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: /[01;32myegor@yegor-VirtualBox[00m:[01;34m/[00m$ [7mls -l /etc | grep '^-' | sort | cat -n[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -l /etc | grep '^-' | sort | cat -n
+[?2004l     1	-r--r-----  1 root root    1671 фев  8  2022 sudoers
+     2	-r--r--r--  1 root root      33 сен 10 12:56 machine-id
+     3	-rw-r-----  1 root daemon   144 апр 14  2022 at.deny
+     4	-rw-r-----  1 root root      33 авг  8 01:55 brlapi.key
+     5	-rw-r-----  1 root shadow  1014 окт  2 22:04 gshadow-
+     6	-rw-r-----  1 root shadow  1032 окт  5 16:34 gshadow
+     7	-rw-r-----  1 root shadow  1803 окт  2 21:53 shadow-
+     8	-rw-r-----  1 root shadow  1840 окт  2 22:23 shadow
+     9	-rw-r--r--  1 root root     104 авг  2 16:13 lsb-release
+    10	-rw-r--r--  1 root root   10593 апр  1  2022 sensors3.conf
+    11	-rw-r--r--  1 root root     106 авг  8 01:52 environment
+    12	-rw-r--r--  1 root root   10734 ноя 11  2021 login.defs
+    13	-rw-r--r--  1 root root     110 сен 10 12:53 kernel-img.conf
+    14	-rw-r--r--  1 root root     111 мар 24  2022 magic
+    15	-rw-r--r--  1 root root     111 мар 24  2022 magic.mime
+    16	-rw-r--r--  1 root root   11204 фев  9  2022 nanorc
+    17	-rw-r--r--  1 root root    1136 мар 23  2022 crontab
+    18	-rw-r--r--  1 root root    1216 окт  2 22:04 group-
+    19	-rw-r--r--  1 root root    1216 окт  5 16:34 group
+    20	-rw-r--r--  1 root root    1260 июн 16  2020 ucf.conf
+    21	-rw-r--r--  1 root root   12813 мар 28  2021 services
+    22	-rw-r--r--  1 root root     128 авг  8 01:52 shells
+    23	-rw-r--r--  1 root root    1308 мар 24  2022 kerneloops.conf
+    24	-rw-r--r--  1 root root    1382 дек 24  2021 rsyslog.conf
+    25	-rw-r--r--  1 root root      13 авг 22  2021 debian_version
+    26	-rw-r--r--  1 root root      13 сен 10 12:52 timezone
+    27	-rw-r--r--  1 root root    1523 мар 25  2022 usb_modeswitch.conf
+    28	-rw-r--r--  1 root root    1748 янв  6  2022 inputrc
+    29	-rw-r--r--  1 root root      17 сен 10 12:52 hostname
+    30	-rw-r--r--  1 root root    1816 дек 27  2019 ethertypes
+    31	-rw-r--r--  1 root root     191 мар 17  2022 libaudit.conf
+    32	-rw-r--r--  1 root root     195 авг  8 01:53 modules
+    33	-rw-r--r--  1 root root      19 авг  2 16:14 issue.net
+    34	-rw-r--r--  1 root root      20 фев 24  2022 fprintd.conf
+    35	-rw-r--r--  1 root root    2319 янв  6  2022 bash.bashrc
+    36	-rw-r--r--  1 root root     231 сен 10 12:52 hosts
+    37	-rw-r--r--  1 root root    2355 фев 25  2022 sysctl.conf
+    38	-rw-r--r--  1 root root    2584 фев  3  2022 gai.conf
+    39	-rw-r--r--  1 root root     267 окт 15  2021 legal
+    40	-rw-r--r--  1 root root      26 авг  2 16:14 issue
+    41	-rw-r--r--  1 root root      27 мар 13  2022 libao.conf
+    42	-rw-r--r--  1 root root   29219 июн 28  2022 brltty.conf
+    43	-rw-r--r--  1 root root    2932 апр  2  2013 protocols
+    44	-rw-r--r--  1 root root    2969 фев 20  2022 debconf.conf
+    45	-rw-r--r--  1 root root    2996 мар  4  2022 locale.alias
+    46	-rw-r--r--  1 root root    3028 авг  8 01:52 adduser.conf
+    47	-rw-r--r--  1 root root    3115 окт  2 21:53 passwd-
+    48	-rw-r--r--  1 root root    3174 окт  2 22:04 passwd
+    49	-rw-r--r--  1 root root     335 мар 23  2022 anacrontab
+    50	-rw-r--r--  1 root root      34 дек 16  2020 ld.so.conf
+    51	-rw-r--r--  1 root root     367 дек 16  2020 bindresvport.blacklist
+    52	-rw-r--r--  1 root root   36998 окт  1 17:26 mailcap
+    53	-rw-r--r--  1 root root     411 авг  8 01:54 hosts.allow
+    54	-rw-r--r--  1 root root     433 мар 23  2022 apg.conf
+    55	-rw-r--r--  1 root root    4436 дек 16  2020 hdparm.conf
+    56	-rw-r--r--  1 root root     449 дек 11  2021 mailcap.order
+    57	-rw-r--r--  1 root root    4573 фев 14  2022 sudo.conf
+    58	-rw-r--r--  1 root root      45 ноя 11  2021 bash_completion
+    59	-rw-r--r--  1 root root     460 дек  8  2021 zsh_command_not_found
+    60	-rw-r--r--  1 root root    4942 янв 24  2022 wgetrc
+    61	-rw-r--r--  1 root root       4 авг  8 01:56 hostid
+    62	-rw-r--r--  1 root root      51 апр  9  2020 vdpau_wrapper.cfg
+    63	-rw-r--r--  1 root root    5217 мар 17  2022 manpath.config
+    64	-rw-r--r--  1 root root     542 сен 10 12:54 nsswitch.conf
+    65	-rw-r--r--  1 root root    5529 авг  8 01:53 ca-certificates.conf.dpkg-old
+    66	-rw-r--r--  1 root root     552 авг 12  2020 pam.conf
+    67	-rw-r--r--  1 root root    5620 янв  9  2022 rygel.conf
+    68	-rw-r--r--  1 root root     582 окт 15  2021 profile
+    69	-rw-r--r--  1 root root     592 янв 24  2022 logrotate.conf
+    70	-rw-r--r--  1 root root     604 сен 16  2018 deluser.conf
+    71	-rw-r--r--  1 root root    6253 авг  8 01:53 ca-certificates.conf
+    72	-rw-r--r--  1 root root   66351 окт 14 22:15 ld.so.cache
+    73	-rw-r--r--  1 root root      67 окт  2 15:26 subgid-
+    74	-rw-r--r--  1 root root      67 окт  2 15:26 subuid-
+    75	-rw-r--r--  1 root root     681 мар 23  2022 xattr.conf
+    76	-rw-r--r--  1 root root     685 янв  8  2022 e2scrub.conf
+    77	-rw-r--r--  1 root root     694 мар 23  2022 fuse.conf
+    78	-rw-r--r--  1 root root     711 авг  8 01:54 hosts.deny
+    79	-rw-r--r--  1 root root   72029 мар 21  2022 mime.types
+    80	-rw-r--r--  1 root root     744 янв  8  2022 mke2fs.conf
+    81	-rw-r--r--  1 root root    7649 авг  8 01:55 pnm2ppa.conf
+    82	-rw-r--r--  1 root root     767 мар 24  2022 netconfig
+    83	-rw-r--r--  1 root root     769 фев 22  2022 appstream.conf
+    84	-rw-r--r--  1 root root     887 апр  1  2013 rpc
+    85	-rw-r--r--  1 root root      91 окт 15  2021 networks
+    86	-rw-r--r--  1 root root      92 окт 15  2021 host.conf
+    87	-rw-r--r--  1 root root    9390 фев 14  2022 sudo_logsrvd.conf
+    88	-rw-r--r--  1 root root    9452 сен 10 12:52 locale.gen
+    89	-rw-r--r--  1 root root      96 окт  2 22:04 subgid
+    90	-rw-r--r--  1 root root      96 окт  2 22:04 subuid
+    91	-rw-rw-r--  1 root root       3 сен 10 12:53 papersize
+    92	-rw-rw-r--  1 root root     665 сен 10 12:50 fstab
+    93	-rwxr-xr-x  1 root root     228 мар 23  2022 nftables.conf
+[?2004h]0;yegor@yegor-VirtualBox: /[01;32myegor@yegor-VirtualBox[00m:[01;34m/[00m$ ./task2`[K[K[K[K[K[K[K[K`[K~Р[K/Рабочий\ стол/lab3Dir/ta[K[Ksp12a-lab3-sva4rd/task2.4/[1@c[1@d[1@ 
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task2.4[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task2.4[00m$ ./task2.awk cars.txt
+[?2004lUsage: awk [POSIX or GNU style options] -f progfile [--] file ...
+Usage: awk [POSIX or GNU style options] [--] 'program' file ...
+POSIX options:		GNU long options: (standard)
+	-f progfile		--file=progfile
+	-F fs			--field-separator=fs
+	-v var=val		--assign=var=val
+Short options:		GNU long options: (extensions)
+	-b			--characters-as-bytes
+	-c			--traditional
+	-C			--copyright
+	-d[file]		--dump-variables[=file]
+	-D[file]		--debug[=file]
+	-e 'program-text'	--source='program-text'
+	-E file			--exec=file
+	-g			--gen-pot
+	-h			--help
+	-i includefile		--include=includefile
+	-l library		--load=library
+	-L[fatal|invalid|no-ext]	--lint[=fatal|invalid|no-ext]
+	-M			--bignum
+	-N			--use-lc-numeric
+	-n			--non-decimal-data
+	-o[file]		--pretty-print[=file]
+	-O			--optimize
+	-p[file]		--profile[=file]
+	-P			--posix
+	-r			--re-interval
+	-s			--no-optimize
+	-S			--sandbox
+	-t			--lint-old
+	-V			--version
+
+To report bugs, see node `Bugs' in `gawk.info'
+which is section `Reporting Problems and Bugs' in the
+printed version.  This same information may be found at
+https://www.gnu.org/software/gawk/manual/html_node/Bugs.html.
+PLEASE do NOT try to report bugs by posting in comp.lang.awk,
+or by using a web forum such as Stack Overflow.
+
+gawk is a pattern scanning and processing language.
+By default it reads standard input and writes standard output.
+
+Examples:
+	awk '{ sum += $1 }; END { print sum }' file
+	awk -F: '{ print $1 }' /etc/passwd
+./task2.awk: строка 2: BEGIN: команда не найдена
+./task2.awk: строка 4: синтаксическая ошибка рядом с неожиданным маркером «{»
+./task2.awk: строка 4: `    if ($5 >= 3000 && $5 <= 7000) {'
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task2.4[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task2.4[00m$ [7mawk -f task2.awk cars.txt[27mawk -f task2.awk cars.txt
+[?2004lCHEVY malibu 1999 60 3000
+CHEVY malibu 2000 50 3500
+HONDA accord 2001 30 6000
+Total: 12500
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task2.4[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task2.4[00m$ [7msed -f animals.sed animals_test [27m[1Psed -f animals.sed animals_test[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kawk -f task2.awk [K[K[K[K[K[K3.awk 
+[?2004lawk: task3.awk:3:     asort();
+awk: task3.awk:3:           ^ 0 - неверное число аргументов для asort
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task2.4[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task2.4[00m$ awk -f task3.awk 
+[?2004lУдалено строк: 
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task2.4[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task2.4[00m$ history > history
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task2.4[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task2.4[00m$ awk -f task3.awk
+[?2004lУдалено строк: 613
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task2.4[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task2.4[00m$ cat history-copy 
+[?2004l
+    1  sudo apt update
+    4  df -h
+    5  cd media/yeg/VBox_GAs_7.0.6/
+    9  help
+   11  exit
+   14  [200~sudo usermod -a -G vboxsf $(whoami)
+   15  ~sudo usermod -a -G vboxsf $(whoami)
+   18  ifconfig
+   21  locale
+   24  ls
+   26  учше
+   29  ssh
+   33  nautilus
+   36  s
+   67  script newScript
+   70  ды
+   75  pwd
+   76  mkdir newDir
+   77  rmDir newDir
+   78  rmdir newDir
+   88  tee file.txt
+   89  rm file.txt
+   90  history
+   92  cal
+   93  date
+   94  who
+   95  whoami
+   97  cat file.txt
+   98  vi
+  101  man cp
+  104  cp file.txt copy.txt
+  105  unlink copy.txt
+  125  git
+  132  ssh-keygen -t rsa -b 4096 -C egor71175@gmail.com
+  133  eval $(ssh-agent -s)
+  134  ssh-add ~/.ssh/id_rsa
+  147  touch a.txt
+  155  ln ../C/d.txt d.txt
+  193  2
+  201  scp predator@192.168.0.109:/d/hostFile.txt /home/yegor/laptyonok
+  205  midnight commander
+  207  mc
+  212  gzip info
+  218  gunzip file.txt.gz 
+  219  tar file.txt
+  268  chmod +rx ~/Desktop/sf_ubuntu_dir.desktop
+  321  info history
+  339  useradd laptyonok12
+  350  groups laptyonok12
+  356  chage -E 2023-12-24 visitor12
+  363  tail -f /var/log/auth.log 
+  368  su - studentLaptyonok12
+  382  --login
+  383  login
+  395  last -s 2weeks
+  398  gur atstus
+  404  acl
+  406  eexit
+  414  setfacl -m g:$(id -gn):rwx 11
+  426  kill -TERM 7473
+  432  jobs
+  434  (while true; do echo -n A >> log; sleep 1; done)
+  435  bg
+  440  renice 10 -p 8089
+  447  ps -aux --sort=start_time | head -n 4
+  453  bash
+  454  sleep 1000 &
+  467  clear
+  480  nano ps.log 
+  481  top
+  483  fuser ps.log 
+  501  pidof top
+  505  vmstat > LaptyonokYegor_vmstat
+  506  lsof > LaptyonokYegor_lsof
+  522  ping
+  530  tracert
+  531  tracert6
+  541  branch
+  544  name
+  545  filename
+  546  listname
+  547  list
+  548  copy
+  549  printname
+  550  university
+  552  lastname
+  556  firstname
+  557  position name
+  558  job
+  560  END
+  562  nl file.my
+  569  grep name file.my > names
+  572  sort < file.my
+  582  tr ’aeiou’ ’AEIOU’ > trfile.txt
+  608  awk '{print toupper ($2)}' list_students
+  609  wk '{print toupper $2}' list_students
+  614  gawk
+  620  gavk -V
+  664  sed '/book/ p' books
+  687  task2.sh
+  688  ./task2.sh
+  694  ./task2.awk cars.txt
+  697  ./task4.sh
+  698  ./animals.sed animals_test 
+  705  ./animals.sh 
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task2.4[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task2.4[00m$ sed -f animals.sed animals_test 
+[?2004lsomething
+Следующая строка была изменена:
+animal
+Следующая строка была изменена:
+little animal
+monkey
+Следующая строка была изменена:
+jeep, zebra, lamp and animal
+hockey
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task2.4[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task2.4[00m$ cat animals_test 
+[?2004lsomething
+bird
+little bird
+monkey
+jeep, zebra, lamp and bird
+hockey
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task2.4[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task2.4[00m$ [?2004l
+exit
+
+Script done on 2023-10-15 00:18:16+03:00 [COMMAND_EXIT_CODE="0"]

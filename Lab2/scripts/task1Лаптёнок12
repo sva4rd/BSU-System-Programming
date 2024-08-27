@@ -1,0 +1,101 @@
+Script started on 2023-10-02 15:04:55+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ [7msudo groupadd[27msudo groupadd student12
+[?2004l[sudo] пароль для yegor: 
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ useradd laptyonok12
+[?2004luseradd: Permission denied.
+useradd: не удалось заблокировать /etc/passwd; попробуйте ещё раз позже.
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ useradd laptyonok12[1@s[C[1@u[1@d[1@o[1@ 
+[?2004l[sudo] пароль для yegor: 
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ [7msudo chage -E $(date -d '1 november' +%Y-%m-%d)[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo chage -E $(date -d '1 november' +%Y-%m-%d) дфзенщ тщл12[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[Klaptyo nok12
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ [7msudo chage -M 3[27msudo chage -M 3 laptyonok12
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ [7msudo adduser visitor12[27msudo adduser visitor12
+[?2004lДобавляется пользователь «visitor12» ...
+Добавляется новая группа «visitor12» (1003) ...
+Добавляется новый пользователь «visitor12» (1002) в группу «visitor12» ...
+Создаётся домашний каталог «/home/visitor12» ...
+Копирование файлов из «/etc/skel» ...
+Новый пароль: 
+НЕУДАЧНЫЙ ПАРОЛЬ: Пароль содержит имя пользователя в той или иной форме
+Повторите ввод нового пароля: 
+passwd: пароль успешно обновлён
+Изменение информации о пользователе visitor12
+Введите новое значение или нажмите ENTER для выбора значения по умолчанию
+	Полное имя []: visitor12
+	Номер комнаты []: 12
+	Рабочий телефон []: 12
+	Домашний телефон []: 12
+	Другое []: 12
+Данная информация корректна? [Y/n] y
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ учше[K[K[K[Kexit
+[?2004lexit
+
+Script done on 2023-10-02 15:32:39+03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2023-10-02 15:54:46+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ [7msudo usermod -a -G student12 [27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo usermod -a -G student12 laptyonok12
+[?2004l[sudo] пароль для yegor: 
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ sudo usermod -a -G student12 laptyonok12[1P12[1P12[1P12[1P12[1P12[1P12[1P12[1P12[1P12v12i12s12i12t12o12r12
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ groupd[Ks laptyonok12
+[?2004llaptyonok12 : laptyonok12 student12
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ groups laptyonok12[1P12[1P12[1P12[1P12[1P12[1P12[1P12[1P12[1P12v12i12s12i12t12o12r12
+[?2004lvisitor12 : visitor12 student12
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2023-10-02 15:57:24+03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2023-10-02 21:42:35+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ sud o[K[Ko passwd laptyonok12
+[?2004l[sudo] пароль для yegor: 
+Новый пароль: 
+НЕУДАЧНЫЙ ПАРОЛЬ: Пароль должен содержать не менее 8 символов
+Повторите ввод нового пароля: 
+passwd: пароль успешно обновлён
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ [7mchage -E 2023-12-24 visitorN[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchage -E 2023-12-24 visitorN[K12
+[?2004lchage: доступ запрещён.
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ chage -E 2023-12-24 visitor12[1@s[1@u[1@d[1@o[1@ 
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ [7msudo chfn visitorN[27msudo chfn visitorN[K12
+[?2004lИзменение информации о пользователе visitor12
+Введите новое значение или нажмите ENTER для выбора значения по умолчанию
+	Полное имя [visitor12]: visitor12  
+	Номер комнаты [12]: 12
+	Рабочий телефон [12]: 12-12
+	Домашний телефон [12]: 12-12
+	Другое [12]: visitor12
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ sudo usermod -l guest12 visitor12
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ sudo usermod -l studentLaptyonok12 laptyonok12
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ [7msudo useradd -u 2000 -g users -G mail -d /home/nouser [27m[7m-[27m[7mM -s /usr/sbin/nologin testLaptyonok12[27m[Asudo useradd -u 2000 -g users -G mail -d /home/nouser -M -s /usr/sbin/nologin testLaptyonok12
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ sudo touch /etc/denied_users
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ tail -f va[K[K/var/log/ay[Kuth.log 
+[?2004lOct  2 22:12:14 yegor-VirtualBox sudo:    yegor : TTY=pts/1 ; PWD=/home/yegor ; USER=root ; COMMAND=/usr/bin/touch /etc/denied_users
+Oct  2 22:12:14 yegor-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct  2 22:12:14 yegor-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct  2 22:13:33 yegor-VirtualBox polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:yegor to gain TEMPORARY authorization for action org.gtk.vfs.file-operations-helper for unix-process:3311:301053 [/bin/sh -c pkexec /usr/libexec/gvfsd-admin "$@" --address $DBUS_SESSION_BUS_ADDRESS --dir $XDG_RUNTIME_DIR gvfsd-admin --spawner :1.3 /org/gtk/gvfs/exec_spaw/4] (owned by unix-user:yegor)
+Oct  2 22:13:33 yegor-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Oct  2 22:13:33 yegor-VirtualBox pkexec[3312]: yegor: Executing command [USER=root] [TTY=unknown] [CWD=/home/yegor] [COMMAND=/usr/libexec/gvfsd-admin --spawner :1.3 /org/gtk/gvfs/exec_spaw/4 --address unix:path=/run/user/1000/bus --dir /run/user/1000]
+Oct  2 22:13:38 yegor-VirtualBox polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:yegor to gain TEMPORARY authorization for action org.gtk.vfs.file-operations for unix-process:3292:301026 [/usr/bin/gedit admin:///etc/denied_users] (owned by unix-user:yegor)
+Oct  2 22:14:49 yegor-VirtualBox polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:yegor to gain TEMPORARY authorization for action org.gtk.vfs.file-operations for unix-process:3398:308513 [/usr/bin/gedit admin:///etc/pam.d/sshd] (owned by unix-user:yegor)
+Oct  2 22:17:01 yegor-VirtualBox CRON[3464]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct  2 22:17:01 yegor-VirtualBox CRON[3464]: pam_unix(cron:session): session closed for user root
+
+
+q
+^C
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ [7msudo systemctl restart sshd[27msudo systemctl restart sshd
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ sudo systemctl restart sshd[1Ptail -f /var/log/auth.log 
+[?2004lOct  2 22:13:38 yegor-VirtualBox polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:yegor to gain TEMPORARY authorization for action org.gtk.vfs.file-operations for unix-process:3292:301026 [/usr/bin/gedit admin:///etc/denied_users] (owned by unix-user:yegor)
+Oct  2 22:14:49 yegor-VirtualBox polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:yegor to gain TEMPORARY authorization for action org.gtk.vfs.file-operations for unix-process:3398:308513 [/usr/bin/gedit admin:///etc/pam.d/sshd] (owned by unix-user:yegor)
+Oct  2 22:17:01 yegor-VirtualBox CRON[3464]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct  2 22:17:01 yegor-VirtualBox CRON[3464]: pam_unix(cron:session): session closed for user root
+Oct  2 22:20:43 yegor-VirtualBox sudo:    yegor : TTY=pts/1 ; PWD=/home/yegor ; USER=root ; COMMAND=/usr/bin/systemctl restart sshd
+Oct  2 22:20:43 yegor-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct  2 22:20:43 yegor-VirtualBox sshd[705]: Received signal 15; terminating.
+Oct  2 22:20:43 yegor-VirtualBox sshd[3618]: Server listening on 0.0.0.0 port 22.
+Oct  2 22:20:43 yegor-VirtualBox sshd[3618]: Server listening on :: port 22.
+Oct  2 22:20:43 yegor-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+
+q
+^F  ^C
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2023-10-02 22:21:23+03:00 [COMMAND_EXIT_CODE="130"]

@@ -1,0 +1,106 @@
+
+    1  sudo apt update
+    4  df -h
+    5  cd media/yeg/VBox_GAs_7.0.6/
+    9  help
+   11  exit
+   14  [200~sudo usermod -a -G vboxsf $(whoami)
+   15  ~sudo usermod -a -G vboxsf $(whoami)
+   18  ifconfig
+   21  locale
+   24  ls
+   26  учше
+   29  ssh
+   33  nautilus
+   36  s
+   67  script newScript
+   70  ды
+   75  pwd
+   76  mkdir newDir
+   77  rmDir newDir
+   78  rmdir newDir
+   88  tee file.txt
+   89  rm file.txt
+   90  history
+   92  cal
+   93  date
+   94  who
+   95  whoami
+   97  cat file.txt
+   98  vi
+  101  man cp
+  104  cp file.txt copy.txt
+  105  unlink copy.txt
+  125  git
+  132  ssh-keygen -t rsa -b 4096 -C egor71175@gmail.com
+  133  eval $(ssh-agent -s)
+  134  ssh-add ~/.ssh/id_rsa
+  147  touch a.txt
+  155  ln ../C/d.txt d.txt
+  193  2
+  201  scp predator@192.168.0.109:/d/hostFile.txt /home/yegor/laptyonok
+  205  midnight commander
+  207  mc
+  212  gzip info
+  218  gunzip file.txt.gz 
+  219  tar file.txt
+  268  chmod +rx ~/Desktop/sf_ubuntu_dir.desktop
+  321  info history
+  339  useradd laptyonok12
+  350  groups laptyonok12
+  356  chage -E 2023-12-24 visitor12
+  363  tail -f /var/log/auth.log 
+  368  su - studentLaptyonok12
+  382  --login
+  383  login
+  395  last -s 2weeks
+  398  gur atstus
+  404  acl
+  406  eexit
+  414  setfacl -m g:$(id -gn):rwx 11
+  426  kill -TERM 7473
+  432  jobs
+  434  (while true; do echo -n A >> log; sleep 1; done)
+  435  bg
+  440  renice 10 -p 8089
+  447  ps -aux --sort=start_time | head -n 4
+  453  bash
+  454  sleep 1000 &
+  467  clear
+  480  nano ps.log 
+  481  top
+  483  fuser ps.log 
+  501  pidof top
+  505  vmstat > LaptyonokYegor_vmstat
+  506  lsof > LaptyonokYegor_lsof
+  522  ping
+  530  tracert
+  531  tracert6
+  541  branch
+  544  name
+  545  filename
+  546  listname
+  547  list
+  548  copy
+  549  printname
+  550  university
+  552  lastname
+  556  firstname
+  557  position name
+  558  job
+  560  END
+  562  nl file.my
+  569  grep name file.my > names
+  572  sort < file.my
+  582  tr ’aeiou’ ’AEIOU’ > trfile.txt
+  608  awk '{print toupper ($2)}' list_students
+  609  wk '{print toupper $2}' list_students
+  614  gawk
+  620  gavk -V
+  664  sed '/book/ p' books
+  687  task2.sh
+  688  ./task2.sh
+  694  ./task2.awk cars.txt
+  697  ./task4.sh
+  698  ./animals.sed animals_test 
+  705  ./animals.sh 

@@ -1,0 +1,243 @@
+Script started on 2023-10-14 18:53:38+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ cat > fi le.my << ENd[KD[1PEND
+[?2004l[?2004h> [7mname[27m[C[Cname
+[?2004l[?2004h> [7mfilename[27m[C[Cfilename
+[?2004l[?2004h> [7mlistname[27m[C[Clistname
+[?2004l[?2004h> [7mlist[27m[C[Clist
+[?2004l[?2004h> [7mcopy[27m[C[Ccopy
+[?2004l[?2004h> [7mprintname[27m[C[Cprintname
+[?2004l[?2004h> [7muniversity[27m[C[Cuniversity
+[?2004l[?2004h> [7muniversity name[27m[C[Cuniversity name
+[?2004l[?2004h> [7mlastname[27m[C[Clastname
+[?2004l[?2004h> [7mlast[27m[C[Clast
+[?2004l[?2004h> cat > file.my <<END
+name
+filename
+listname
+list
+copy
+printname
+university
+university name
+lastname
+last
+[A[A[A[A[A[A[A[A[A[A[A[C[C[9Pgit branch
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pbranch[C[Cgit checkout -b dev[C[C[C[C[C[C[Commit -m "add readme.md"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mlastname[27m[C[Clastname
+[?2004l[?2004h> [7mlistname[27m[C[Clistname
+[?2004l[?2004h> [7mfirstname[27m[C[Cfirstname
+[?2004l[?2004h> [7mposition name[27m[C[Cposition name
+[?2004l[?2004h> [7mjob[27mjob
+[?2004l[?2004h> [7mjob description[27m
+[A[C[Cjob description
+[A
+[?2004l[?2004h> END
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ cat file.my
+[?2004lname
+filename
+listname
+list
+copy
+printname
+university
+university name
+lastname
+last
+lastname
+listname
+firstname
+position name
+job
+job description
+
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ nl file.my
+[?2004l     1	name
+     2	filename
+     3	listname
+     4	list
+     5	copy
+     6	printname
+     7	university
+     8	university name
+     9	lastname
+    10	last
+    11	lastname
+    12	listname
+    13	firstname
+    14	position name
+    15	job
+    16	job description
+       
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ end[K[K[K[?2004l
+exit
+
+Script done on 2023-10-14 19:04:04+03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2023-10-14 19:21:38+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="107" LINES="24"]
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [7mcat file.my > file.my.new[27mcat file.my > file.my.new
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [7mgrep name file.my > names[27mgrep name file.my > names
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [?2004l
+exit
+
+Script done on 2023-10-14 19:23:08+03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2023-10-14 19:24:24+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="107" LINES="24"]
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ grep name file.my > names
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ grep name file.my > names> names[1P[1P[1P[1P[1@l[1@i[1@s[1@t
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [7msort < file.my[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csort < file.my
+[A
+[?2004l
+copy
+filename
+firstname
+job
+job description
+last
+lastname
+lastname
+list
+listname
+listname
+name
+position name
+printname
+university
+university name
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [7m sort <file.my > file.my.sorted[27m sort <file.my > file.my.sorted
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [7mcat file.my NameS 2>errors[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat file.my NameS 2>errors
+[A
+[?2004lname
+filename
+listname
+list
+copy
+printname
+university
+university name
+lastname
+last
+lastname
+listname
+firstname
+position name
+job
+job description
+
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ cat errors 
+[?2004lcat: NameS: Нет такого файла или каталога
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [7mcat file.my NameS > output 2>&1[27mcat file.my NameS > output 2>&1
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ cat output 
+[?2004lname
+filename
+listname
+list
+copy
+printname
+university
+university name
+lastname
+last
+lastname
+listname
+firstname
+position name
+job
+job description
+
+cat: NameS: Нет такого файла или каталога
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [7mcat file.my NameS 2>&1 > someoutput[27m 
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat file.my NameS 2>&1 > someoutput 
+[A
+[?2004lcat: NameS: Нет такого файла или каталога
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ cat someoutput 
+[?2004lname
+filename
+listname
+list
+copy
+printname
+university
+university name
+lastname
+last
+lastname
+listname
+firstname
+position name
+job
+job description
+
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [7mcat > typedin.txt[27mcat > typedin.txt
+[?2004lThis time, when text is typed at the keyboard,
+it is redirected to the file typedin.txt.
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ ^[[200~ls -l typedin.txt~[C[C[C[C[C[C[K[C[1P[1P[1P[1P[1P[2P
+[?2004l-rw-rw-r-- 1 yegor yegor 89 окт 14 19:41 typedin.txt
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [7mcat typedin.txt[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat typedin.txt
+[A
+[?2004lThis time, when text is typed at the keyboard,
+it is redirected to the file typedin.txt.
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [7mtr ’aeiou’ ’AEIOU’ > trfile.txt[27mtr ’aeiou’ ’AEIOU’ > trfile.txt
+[?2004lThis time, when text is typed at the keyboard,
+it is not echoed back to the screen with the translations made.
+Instead, it is redirected to the file trfile.txt.
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [7mls -l trfile.txt[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -l trfile.txt
+[A
+[?2004l-rw-rw-r-- 1 yegor yegor 161 окт 14 19:44 trfile.txt
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [7mcat trfile.txt[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat trfile.txt
+[A
+[?2004lThIs tImE, whEn tExt Is typEd At thE kEybOArd,
+It Is nOt EchOEd bAck tO thE scrEEn wIth thE trAnslAtIOns mAdE.
+InstEAd, It Is rEdIrEctEd tO thE fIlE trfIlE.txt.
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [7m cat packages1.txt[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C cat packages1.txt
+[A
+[?2004lsome info in package1.txt file
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [7mcat < packages1.txt[27mcat < packages1.txt
+[?2004lsome info in package1.txt file
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [7mtr ’aeiou’ ’AEIOU’ < packages1.txt[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctr ’aeiou’ ’AEIOU’ < packages1.txt
+[A
+[?2004lsOmE InfO In pAckAgE1.txt fIlE
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [7mtr ’aeiou’ ’AEIOU’ < packages1.txt [27m[7m>[27m[7m packages1.trfile.txt[27m[A]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ tr ’aeiou’ ’AEIOU’ < packages1.txt > packages1.trfile.txt
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [7mls -l packages1.txt packages1.trfil[27m[7me[27m[7m.txt[27m[A]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ ls -l packages1.txt packages1.trfile.txt
+[?2004l-rw-rw-r-- 1 yegor yegor 31 окт 14 19:48 packages1.trfile.txt
+-rw-rw-r-- 1 yegor yegor 31 окт 14 19:47 packages1.txt
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [7mcat packages1.trfile.txt[27mcat packages1.trfile.txt
+[?2004lsOmE InfO In pAckAgE1.txt fIlE
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [7mcat file.my | grep name > grep_name[27m[7ms[27m[A]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ cat file.my | grep name > grep_names
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [7mcat file.my | grep name | wc -l[27mcat file.my | grep name | wc -l
+[?2004l10
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [K]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [7mcat file.my | uniq | sort[27mcat file.my | uniq | sort
+[?2004l
+copy
+filename
+firstname
+job
+job description
+last
+lastname
+lastname
+list
+listname
+listname
+name
+position name
+printname
+university
+university name
+[?2004h]0;yegor@yegor-VirtualBox: ~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Рабочий стол/lab3Dir/sp12a-lab3-sva4rd/task31[00m$ [?2004l
+exit
+
+Script done on 2023-10-14 19:56:28+03:00 [COMMAND_EXIT_CODE="0"]

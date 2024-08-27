@@ -1,0 +1,321 @@
+Script started on 2023-10-01 15:19:25+03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="84" LINES="41"]
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ help
+[?2004lGNU bash, версия 5.1.16(1)-release (x86_64-pc-linux-gnu)
+Показанные ниже команды определены внутри командного процессора.  Чтобы вывести полный список, введите «help».
+Чтобы вывести справку по функции «name», введите «help name».
+Чтобы вывести справку по командному процессору, введите «info bash».
+Чтобы вывести справку по командам, которые отсутствуют в этом списке, введите «man -k» или «info».
+
+Звёздочка (*) рядом с названием команды означает, что эта команда отключена.
+
+ задание [&]                               history [-c] [-d смещение] [n] или his>
+ (( выражение ))                           if КОМАНДЫ; then КОМАНДЫ; [ elif КОМАН>
+ . файл [аргументы]                        jobs [-lnprs] [задание ...] или jobs ->
+ :                                         kill [-s назв_сигнала | -n номер_сигна>
+ [ аргумент... ]                           let аргумент [аргумент ...]
+ [[ выражение ]]                           local [параметр] имя[=значение] ...
+ alias [-p] [имя[=значение] ... ]          logout [n]
+ bg [задание ...]                          mapfile [-d разделитель] [-n число] [->
+ bind [-lpvsPSVX] [-m раскладка] [-f фай>  popd [-n] [+N | -N]
+ break [n]                                 printf [-v переменная] формат [аргумен>
+ builtin [встр_команда [аргумент ...]]     pushd [-n] [+N | -N | каталог]
+ caller [выражение]                        pwd [-LP]
+ case СЛОВО in [ШАБЛОН [| ШАБЛОН]...) КО>  read [-ers] [-a массив] [-d разделител>
+ cd [-L|[-P [-e]] [-@]] [каталог]          readarray [-d разделитель] [-n число] >
+ command [-pVv] команда [аргумент ...]     readonly [-aAf] [имя[=значение] ...] и>
+ compgen [-abcdefgjksuv] [-o параметр] [>  return [n]
+ complete [-abcdefgjksuv] [-pr] [-DEI] [>  select ИМЯ [in СЛОВА ... ;] do КОМАНДЫ>
+ compopt [-o|+o параметр] [-DEI] [имя ..>  set [-abefhkmnptuvxBCHP] [-o параметр]>
+ continue [n]                              shift [n]
+ coproc [ИМЯ] команда [перенаправления]    shopt [-pqsu] [-o] [параметр ...]
+ declare [-aAfFgiIlnrtux] [-p] [name[=va>  source файл [аргументы]
+ dirs [-clpv] [+N] [-N]                    suspend [-f]
+ disown [-h] [-ar] [задание ... | pid ..>  test [выражение]
+ echo [-neE] [аргумент ...]                time [-p] конвейер
+ enable [-a] [-dnps] [-f файл] [имя ...>   times
+ eval [аргумент ...]                       trap [-lp] [[аргумент] сигнал ...]
+ exec [-cl] [-a имя] [команда [аргумент >  true
+ exit [n]                                  type [-afptP] имя [имя ...]
+ export [-fn] [имя[=значение ...] или ex>  typeset [-aAfFgiIlnrtux] [-p] name[=va>
+ false                                     ulimit [-SHabcdefiklmnpqrstuvxPT] [огр>
+ fc [-e редактор] [-lnr] [первая] [после>  umask [-p] [-S] [режим]
+ fg [задание]                              unalias [-a] имя [имя ...]
+ for ИМЯ [in СЛОВА... ;] do КОМАНДЫ; don>  unset [-f] [-v] [-n] [имя ...]
+ for (( выраж1; выраж2; выраж3 )); do КО>  until КОМАНДЫ; do КОМАНДЫ; done
+ function ИМЯ { КОМАНДЫ ; } или ИМЯ () {>  переменные — имена и значения некоторы>
+ getopts строка_параметров имя [аргумент>  wait [-fn] [-p переменная] [идентифика>
+ hash [-lr] [-p путь] [-dt] [имя ...]      while КОМАНДЫ; do КОМАНДЫ; done
+ help [-dms] [шаблон ...]                  { КОМАНДЫ ; }
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ help ho[Kistory
+[?2004lhistory: history [-c] [-d смещение] [n] или history -anrw [файл] или history -ps аргумент [аргумент...]
+    Display or manipulate the history list.
+    
+    Display the history list with line numbers, prefixing each modified
+    entry with a `*'.  An argument of N lists only the last N entries.
+    
+    Options:
+      -c	clear the history list by deleting all of the entries
+      -d offset	delete the history entry at position OFFSET. Negative
+    		offsets count back from the end of the history list
+    
+      -a	append history lines from this session to the history file
+      -n	read all history lines not already read from the history file
+    		and append them to the history list
+      -r	read the history file and append the contents to the history
+    		list
+      -w	write the current history to the history file
+    
+      -p	perform history expansion on each ARG and display the result
+    		without storing it in the history list
+      -s	append the ARGs to the history list as a single entry
+    
+    If FILENAME is given, it is used as the history file.  Otherwise,
+    if HISTFILE has a value, that is used, else ~/.bash_history.
+    
+    If the HISTTIMEFORMAT variable is set and not null, its value is used
+    as a format string for strftime(3) to print the time stamp associated
+    with each displayed history entry.  No time stamps are printed otherwise.
+    
+    Exit Status:
+    Returns success unless an invalid option is given or an error occurs.
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004l [0m[01;34msnap[0m    [01;34mДокументы[0m   [01;34mИзображения[0m   [01;34mОбщедоступные[0m   [01;34mШаблоны[0m
+ [01;34mВидео[0m   [01;34mЗагрузки[0m    [01;34mМузыка[0m       [01;34m'Рабочий стол'[0m
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ cd Документы/
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~/Документы[01;32myegor@yegor-VirtualBox[00m:[01;34m~/Документы[00m$ cd ..
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ pwd
+[?2004l/home/yegor
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ mkdir newdir
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ rmdir newdir
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ tee file.txt
+[?2004lsmth^C
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ rm file.txt
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ history
+[?2004l    1  sudo apt update
+    2  sudo apt upgrade
+    3  sudo apt install build-essential
+    4  df -h
+    5  cd media/yeg/VBox_GAs_7.0.6/
+    6  cd /media/yeg/VBox_GAs_7.0.6/
+    7  cd /media/yegor/VBox_GAs_7.0.6/
+    8  sudo ./VBoxLinuxAdditions.run 
+    9  help
+   10  sudo apt install telegram-desktop
+   11  exit
+   12  sudo apt-get install ssh
+   13  sudo apt install openssh-server
+   14  [200~sudo usermod -a -G vboxsf $(whoami)
+   15  ~sudo usermod -a -G vboxsf $(whoami)
+   16  sudo usermod -a -G vboxsf $(whoami)
+   17  exit
+   18  ifconfig
+   19  sudo apt install net-tools
+   20  ifconfig
+   21  locale
+   22  sudo update-locale LC_TIME=ru_RU.UTF-8
+   23  exit
+   24  ls
+   25  exit
+   26  учше
+   27  exit
+   28  ifconfig
+   29  ssh
+   30  ssh service start
+   31  sudo service ssh start
+   32  sudo usermod -l laptyonok12 yegor
+   33  nautilus
+   34  sudo nautilus
+   35  nautilus
+   36  s
+   37  sudo nautilus
+   38  ls
+   39  cd ..
+   40  ls
+   41  cd ..
+   42  ls
+   43  cd etc
+   44  cd s
+   45  ls
+   46  cd ssh
+   47  ls
+   48  nautilus
+   49  sudo apt install nautilus
+   50  nautilus
+   51  exit
+   52  sudo apt install nautilus-admin
+   53  nautilus -q
+   54  sudo systemctl restart ssh
+   55  sudo passwd root
+   56  ifconfig
+   57  sudo service ssh restart
+   58  exit
+   59  ls
+   60  exit
+   61  ls
+   62  exit
+   63  ls
+   64  exit
+   65  ls
+   66  exit
+   67  script newScript
+   68  script newScript.txt
+   69  script -t 2>log.txt task.txt
+   70  ды
+   71  ls
+   72  help
+   73  ls
+   74  cd
+   75  pwd
+   76  mkdir newDir
+   77  rmDir newDir
+   78  rmdir newDir
+   79  script -t 2>Рабочий\ стол/logsDir/timelog3Лаптёнок12 Рабочий\ стол/logsDir/task3Лаптёнок12
+   80  help
+   81  help history
+   82  ls
+   83  cd Документы/
+   84  cd ..
+   85  pwd
+   86  mkdir newdir
+   87  rmdir newdir
+   88  tee file.txt
+   89  rm file.txt
+   90  history
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ mkdir script -t 2>Рабочий\ стол/logsDir/timelog3Лаптёнок12 Рабочий\ стол/logsDir/task3Лаптёнок12[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KРабочий\ стол/laptyonok
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ cal
+[?2004l    Октябрь 2023      
+Вс Пн Вт Ср Чт Пт Сб  
+ 1  2  3  4  5  6  7  
+ 8  9 10 11 12 13 14  
+15 16 17 18 19 20 21  
+22 23 24 25 26 27 28  
+29 30 31              
+                      
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ date
+[?2004lВс 01 окт 2023 15:22:49 +03
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ who
+[?2004lyegor    tty2         2023-10-01 13:55 (tty2)
+yegor    pts/3        2023-10-01 15:19 (192.168.56.1)
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ whoami
+[?2004lyegor
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ tee file.txt
+[?2004lsomething
+something
+one mor
+one mor
+^[  ^C
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ cat file.txt
+[?2004lsomething
+one mor
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ vi
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;41r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[2;1H[94m~                                                                                   [3;1H~                                                                                   [4;1H~                                                                                   [5;1H~                                                                                   [6;1H~                                                                                   [7;1H~                                                                                   [8;1H~                                                                                   [9;1H~                                                                                   [10;1H~                                                                                   [11;1H~                                                                                   [12;1H~                                                                                   [13;1H~                                                                                   [14;1H~                                                                                   [15;1H~                                                                                   [16;1H~                                                                                   [17;1H~                                                                                   [18;1H~                                                                                   [19;1H~                                                                                   [20;1H~                                                                                   [21;1H~                                                                                   [22;1H~                                                                                   [23;1H~                                                                                   [24;1H~                                                                                   [25;1H~                                                                                   [26;1H~                                                                                   [27;1H~                                                                                   [28;1H~                                                                                   [29;1H~                                                                                   [30;1H~                                                                                   [31;1H~                                                                                   [32;1H~                                                                                   [33;1H~                                                                                   [34;1H~                                                                                   [35;1H~                                                                                   [36;1H~                                                                                   [37;1H~                                                                                   [38;1H~                                                                                   [39;1H~                                                                                   [40;1H~                                                                                   [m[13;34HVIM - Vi IMproved[15;35Hversion 8.2.213[16;31Hby Bram Moolenaar et al.[17;23HModified by team+vim@tracker.debian.org[18;21HVim is open source and freely distributable[20;28HHelp poor children in Uganda![21;20Htype  :help iccf[34m<Enter>[m       for information [23;20Htype  :q[34m<Enter>[m               to exit         [24;20Htype  :help[34m<Enter>[m  or  [34m<F1>[m  for on-line help[25;20Htype  :help version8[34m<Enter>[m   for version info[27;28HRunning in Vi compatible mode[28;20Htype  :set nocp[34m<Enter>[m        for Vim defaults[29;20Htype  :help cp-default[34m<Enter>[m for info on this[1;1H[?25h[?25l[41;1H[1mrecording @q[1;1H[?25h[?25l[m[13;34H[94m                 [15;35H               [16;31H                        [17;23H                                       [18;21H                                           [20;28H                             [21;20H                                              [23;20H                                              [24;20H                                              [25;20H                                              [27;28H                             [28;20H                                              [29;20H                                              [1;1H[?25h[?25l[?25h[?25l[m[41;1H[K[1;1H[?25h[?25l[41;1H[1mrecording @q[1;1H[?25h[?25l[m[41;1H[K[1;1H[?25h[?25l[41;1H[1mrecording @q[1;1H[?25h[?25l[m[41;1H[K[1;1H[?25h[?25l[41;1H:[?25hwq[?25l[97m[41mE32: No file name[1;1H[?25h[?25l[m[41;1H[K[41;1H:[?25hq[?25l[?2004l[>4;m[23;2t[23;1t[41;1H[K[41;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ vi file.txt
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;41r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[41;1H"file.txt" 2 lines, 18 bytes[1;1Hsomething
+one mor
+[94m~                                                                                   [4;1H~                                                                                   [5;1H~                                                                                   [6;1H~                                                                                   [7;1H~                                                                                   [8;1H~                                                                                   [9;1H~                                                                                   [10;1H~                                                                                   [11;1H~                                                                                   [12;1H~                                                                                   [13;1H~                                                                                   [14;1H~                                                                                   [15;1H~                                                                                   [16;1H~                                                                                   [17;1H~                                                                                   [18;1H~                                                                                   [19;1H~                                                                                   [20;1H~                                                                                   [21;1H~                                                                                   [22;1H~                                                                                   [23;1H~                                                                                   [24;1H~                                                                                   [25;1H~                                                                                   [26;1H~                                                                                   [27;1H~                                                                                   [28;1H~                                                                                   [29;1H~                                                                                   [30;1H~                                                                                   [31;1H~                                                                                   [32;1H~                                                                                   [33;1H~                                                                                   [34;1H~                                                                                   [35;1H~                                                                                   [36;1H~                                                                                   [37;1H~                                                                                   [38;1H~                                                                                   [39;1H~                                                                                   [40;1H~                                                                                   [1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?2004l[>4;m[?25l[misomethingi[?25h[?25l[?25h[?2004h[>4;2m[?25lsomething[1;10H[K[1;1H[?25h[?2004l[>4;m[?25l[1;40r[1;1H[L[1;41r[1;1HC[41;1H[K[1;2H[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[1;40r[1;1H[L[1;41r[1;1HC[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[1;40r[1;1H[L[1;41r[1;1HD[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[1;40r[1;1H[L[1;41r[1;1HD[?25h[?2004h[>4;2m
+
+[?2004l[>4;m[?2004h[>4;2m[?2004l[>4;m[?25l[3;40r[3;1H[L[1;41r[3;1HB[?25h[?25l[?25h[?25li[?25h[?25l[?25h[?25li[?25h[?25l[?25h[?2004h[>4;2m[?25l[3;1H[K[3;1H[?25h[?2004l[>4;m[?2004h[>4;2m
+
+
+
+one mo[?2004l[>4;m[?2004h[>4;2m[?25lO[?25h[?2004l[>4;m[?25lir[?25h[?25l[?25h[?2004h[>4;2m[?25lr[7;8H[K[7;6H[?25hOO[?2004l[>4;m[?2004h[>4;2m[?2004l[>4;m[?25l[7;40r[7;1H[L[1;41r[7;1HD[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[7;40r[7;1H[L[1;41r[7;1HD[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[7;40r[7;1H[L[1;41r[7;1HC[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[7;40r[7;1H[L[1;41r[7;1HC[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[7;40r[7;1H[L[1;41r[7;1HB[?25h[?25l\[?25h[?25lf[?25h[?25ls[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25lf[?25h[?25la[?25h[?25ls[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?2004h[>4;2m[?25l[7;1H[K[7;1H[?25h[?2004l[>4;m[?25l[7;40r[7;1H[L[1;41r[7;1HB[?25h[?2004h[>4;2m[?25l[41;1H:[?25hq[?25l[97m[41mE37: No write since last change (add ! to override)[7;1H[?25h[?25l[m[41;1H[K[41;1H:[?25hq[?25l[97m[41mE37: No write since last change (add ! to override)[7;1H[?25h[?25l[m[41;1H[K[41;1H:[?25hq![?25l[?2004l[>4;m[23;2t[23;1t[41;1H[K[41;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ vi file.txt
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;41r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[41;1H"file.txt" 2 lines, 18 bytes[1;1Hsomething
+one mor
+[94m~                                                                                   [4;1H~                                                                                   [5;1H~                                                                                   [6;1H~                                                                                   [7;1H~                                                                                   [8;1H~                                                                                   [9;1H~                                                                                   [10;1H~                                                                                   [11;1H~                                                                                   [12;1H~                                                                                   [13;1H~                                                                                   [14;1H~                                                                                   [15;1H~                                                                                   [16;1H~                                                                                   [17;1H~                                                                                   [18;1H~                                                                                   [19;1H~                                                                                   [20;1H~                                                                                   [21;1H~                                                                                   [22;1H~                                                                                   [23;1H~                                                                                   [24;1H~                                                                                   [25;1H~                                                                                   [26;1H~                                                                                   [27;1H~                                                                                   [28;1H~                                                                                   [29;1H~                                                                                   [30;1H~                                                                                   [31;1H~                                                                                   [32;1H~                                                                                   [33;1H~                                                                                   [34;1H~                                                                                   [35;1H~                                                                                   [36;1H~                                                                                   [37;1H~                                                                                   [38;1H~                                                                                   [39;1H~                                                                                   [40;1H~                                                                                   [1;1H[?25h[msom
+one mo[?2004l[>4;m[?25ler[?25h[?25l[?25h[?2004h[>4;2m[?25lr[2;8H[K[2;6H[?25h[?25lO[?25h[?25l[2;7H[K[2;6H[?25h[?25l[2;6H[K[2;5H[?25h[?2004l[>4;m[?25l[3;1H[K[3;1H[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[3;40r[3;1H[L[1;41r[3;1HA[41;1H[K[3;2H[?25h[?25l[?25h[?2004h[>4;2m[?25l[3;1H[K[3;1H[?25h[?2004l[>4;m[?25l[3;40r[3;1H[L[1;41r[3;1HA[?25h[?25le[?25h[?25l[?25h[?2004h[>4;2m[?25l[3;2H[K[3;1H[?25h[2;1Hone [?2004l[>4;m[?25lom[?25h[?25l[?25h[?2004h[>4;2m[?25lm[2;6H[K[2;4H[?25h 
+[?2004l[>4;m[?25loA[?25h[?25lrA[?25h[?25leA[?25h[?25liA[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[3;40r[3;1H[L[1;41r[3;1HD[?25h[?2004h[>4;2m
+orei[?2004l[>4;m[?25liA[?25h[?25l[?25h[?2004h[>4;2m[?25lA[4;6H[K[4;4H[?25h[?2004l[>4;m[?25l[4;40r[4;1H[L[1;41r[4;1HC[?25h[?2004h[>4;2m[?25l[4;1H[K[4;1H[?25h
+orei[?25l[5;5H[K[5;4H[?25h[?25l[5;4H[K[5;3H[?25h[?25l[5;3H[K[5;2H[?25h[?25l[5;2H[K[5;1H[?25h[?25l[5;1H[K[5;1H[?25h[?25l[5;40r[40;1H
+[1;41r[40;1H[94m~                                                                                   [5;1H[?25h[?25l[5;40r[m[40;1H
+[1;41r[40;1H[94m~                                                                                   [5;1H[?25h[?25l~                                                                                   [4;1H[?25h[?25l~                                                                                   [3;1H[?25h[?25l~                                                                                   [2;1H[?25h[mone [?2004l[>4;m[?25lxm[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[2;40r[2;1H[L[1;41r[2;1HC[?25h[?2004h[>4;2m[?25l[2;1H[K[2;1H[?25h[?25l[2;40r[40;1H
+[1;41r[40;1H[94m~                                                                                   [2;1H[?25h[mone x[?2004l[>4;m[?2004h[>4;2mx[?25l[2;6H[K[2;5H[?25h[?25l[2;5H[K[2;4H[?25h[?2004l[>4;m[?25l [?25h[?25lm[?25h[?25lo[?25h[?25lr[?25h[?25le[?25h[?2004h[>4;2m[?25l[41;1H:[?25hwq[?25l[?2004l[>4;m"file.txt" 2 lines, 20 bytes written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ cat file.txt
+[?2004lsomething
+one more 
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ man cp
+[?2004l[?1049h[22;0;0t[?1h=CP(1)                             User Commands                             CP(1)[m
+[m
+[1mNAME[0m[m
+       cp - copy files and directories[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mcp[0m [[4mOPTION[24m]... [[4m-T[24m] [4mSOURCE[24m [4mDEST[24m[m
+       [1mcp[0m [[4mOPTION[24m]... [4mSOURCE[24m... [4mDIRECTORY[24m[m
+       [1mcp[0m [[4mOPTION[24m]... [4m-t[24m [4mDIRECTORY[24m [4mSOURCE[24m...[m
+[m
+[1mDESCRIPTION[0m[m
+       Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.[m
+[m
+       Mandatory arguments to long options are mandatory for short options too.[m
+[m
+       [1m-a[0m, [1m--archive[0m[m
+              same as [1m-dR[0m [1m--preserve[0m=[4mall[24m[m
+[m
+       [1m--attributes-only[0m[m
+              don't copy the file data, just the attributes[m
+[m
+       [1m--backup[0m[=[4mCONTROL[24m][m
+              make a backup of each existing destination file[m
+[m
+       [1m-b[0m     like [1m--backup[0m but does not accept an argument[m
+[m
+       [1m--copy-contents[0m[m
+              copy contents of special files when recursive[m
+[m
+       [1m-d[0m     same as [1m--no-dereference[0m [1m--preserve[0m=[4mlinks[24m[m
+[m
+       [1m-f[0m, [1m--force[0m[m
+              if an existing destination file cannot be opened, remove it and try[m
+              again (this option is ignored when the [1m-n[0m option is also used)[m
+[m
+       [1m-i[0m, [1m--interactive[0m[m
+              prompt before overwrite (overrides a previous [1m-n[0m option)[m
+[m
+       [1m-H[0m     follow command-line symbolic links in SOURCE[m
+[m
+[7m Manual page cp(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ man uplink
+[?2004lНет справочной страницы для uplink
+[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ man uplink[1Plinknlink
+[?2004l[?1049h[22;0;0t[?1h=UNLINK(1)                         User Commands                         UNLINK(1)[m
+[m
+[1mNAME[0m[m
+       unlink - call the unlink function to remove the specified file[m
+[m
+[1mSYNOPSIS[0m[m
+       [1munlink[0m [4mFILE[24m[m
+       [1munlink[0m [4mOPTION[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       Call the unlink function to remove the specified FILE.[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+[1mAUTHOR[0m[m
+       Written by Michael Stone.[m
+[m
+[1mREPORTING[0m [1mBUGS[0m[m
+       GNU coreutils online help: <https://www.gnu.org/software/coreutils/>[m
+       Report any translation bugs to <https://translationproject.org/team/>[m
+[m
+[1mCOPYRIGHT[0m[m
+       Copyright  ©  2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL[m
+       version 3 or later <https://gnu.org/licenses/gpl.html>.[m
+       This is free software: you are free to change and redistribute it.   There[m
+       is NO WARRANTY, to the extent permitted by law.[m
+[m
+[1mSEE[0m [1mALSO[0m[m
+       unlink(2)[m
+[m
+       Full documentation <https://www.gnu.org/software/coreutils/unlink>[m
+       or available locally via: info '(coreutils) unlink invocation'[m
+[m
+GNU coreutils 8.32                February 2022                         UNLINK(1)[m
+[7m Manual page unlink(1) line 1/37 (END) (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ cp file.txt copy.txt
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ unlink copy.txt
+[?2004l[?2004h]0;yegor@yegor-VirtualBox: ~[01;32myegor@yegor-VirtualBox[00m:[01;34m~[00m$ [?2004l
+exit
+
+Script done on 2023-10-01 15:33:23+03:00 [COMMAND_EXIT_CODE="0"]

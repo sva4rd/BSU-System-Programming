@@ -1,0 +1,2 @@
+This time, when text is typed at the keyboard,
+it is redirected to the file typedin.txt.
